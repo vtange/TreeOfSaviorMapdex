@@ -2,7 +2,6 @@
     //start of function
   var app = angular.module('mapDex', []);
   app.controller('mapSelector', function() {
-  this.name = "controllername"
   this.zones = {
      map_1021: {
          name: "West Siauliai Woods",
@@ -1340,9 +1339,20 @@
          type: "Field",
          level: 470,
          map: ""
-     },
- }
-    })
+     }
+     }
+    }) //end of controller
+  app.controller('tabControl', function() {
+      this.tab = 1;
+      this.selectTab = function(setTab){
+          this.tab = setTab
+      };
+      this.isSelected = function(checkTab){
+          return this.tab === checkTab;
+      };
+    }) //end of controller
+  app.controller('monsterDb', function() {
+    }) //end of controller
   //end of function
 })();
 

@@ -97,8 +97,12 @@ input[type=text] {
     color:white;
     margin-top: 30px;
 }
-#monsterls {
+
+
+.panel {
     margin-top:30px;
+    background-color:transparent;
+    border:0px;
 }
 table {
     margin-top:20px;

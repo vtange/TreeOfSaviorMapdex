@@ -31,12 +31,27 @@
         
         <h2>West Siauliai Woods</h2>
     
-        <section>
-            <ul class="nav nav-pills">
-                <li role="presentation" class="active"><a href="#">Monsters</a></li>
-                <li role="presentation"><a href="#">NPCs</a></li>
-                <li role="presentation"><a href="#">Sub Areas</a></li>
+        <section data-ng-controller="tabControl as tabz">
+            <ul class="nav nav-tabs">
+                <li role="presentation" data-ng-class="{ active: tabz.isSelected(1)}"><a href data-ng-click="tabz.selectTab(1)">Monsters</a></li>
+                <li role="presentation" data-ng-class="{ active: tabz.isSelected(2)}"><a href data-ng-click="tabz.selectTab(2)">NPCs</a></li>
+                <li role="presentation" data-ng-class="{ active: tabz.isSelected(3)}"><a href data-ng-click="tabz.selectTab(3)">Sub Areas</a></li>
             </ul>
+            <div class="panel panel-default" data-ng-show="tabz.isSelected(1)">
+                <div class="panel-body">
+                        Monster Panel
+                </div>
+            </div>
+            <div class="panel panel-default" data-ng-show="tabz.isSelected(2)">
+                <div class="panel-body">
+                        NPC Panel
+                </div>
+            </div>
+            <div class="panel panel-default" data-ng-show="tabz.isSelected(3)">
+                <div class="panel-body">
+                        Sub Areas Panel
+                </div>
+            </div>
         </section>
 </div>
     
