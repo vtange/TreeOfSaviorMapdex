@@ -13,6 +13,9 @@ a {
 a:hover {
     
 }
+a:active {
+    background-image: url(files/area_icon2.png)
+}
 
 h1 {
    /* background: linear-gradient(#C390D4, #8F4BA6);*/
