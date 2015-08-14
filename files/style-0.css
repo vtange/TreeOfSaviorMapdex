@@ -1,22 +1,17 @@
-root { 
-    display: block;
-}
-
 body {
+    display: inline-block;
     font-family: serif;
     padding: 0px;
     margin: 0px;
     background-color: #16171A;
 }
-
 button, input, select, textarea { font-family: inherit; }
-
 a {
     color: #3f70b9;
     text-decoration: none;
 }
-
 a:hover {
+    
 }
 
 h1 {
@@ -32,11 +27,23 @@ h1 {
     text-shadow: 5px 5px 10px rgba(200,200,200,0.5);
 }
 
+h2 {
+    font-size:2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 56px;
+    padding-right: 56px;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-shadow: 5px 5px 10px rgba(200,200,200,0.5);
+}
+
 iframe {
     border: 0px;
 }
-
-
 button {
     background: linear-gradient(#5799d4, #3f70b9);
     color: #ffffff;
@@ -45,25 +52,15 @@ button {
     padding-top: 2px;
     padding-bottom: 2px;
 }
-
 button:hover {
     background: #5799d4;
 }
-
 button:focus {
     background: #3f70b9;
 }
-
 input[type=text] {
+
 }
-
-button.dark {
-    background: linear-gradient(#222222, #111111);
-    border-color: #555555;
-    color: #888888;
-}
-
-
 
 #tooltip {
     display: none;
@@ -86,13 +83,28 @@ button.dark {
     float: left;
     background-color: #25272B;
     padding-right: 20px;
+    padding-bottom: 30px;
     border: 1px solid white;
     border-left: 0px;
     border-top: 0px;
-    border-bottom: 0px;
+    border-bottom-right-radius: 20px;
     box-shadow: 5px 0px 5px rgba(200,200,200,0.1);
 }
 
-
-
-
+#rightside {
+    position: absolute;
+    left: 785px;
+    color:white;
+    margin-top: 30px;
+}
+#monsterls {
+    margin-top:30px;
+}
+table {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+th {
+    width:100px;
+}
+    

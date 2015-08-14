@@ -1,9 +1,4 @@
-(function() {
-    //start of function
-  var app = angular.module('mapDex', []);
-  app.controller('mapSelector', function() {
-  this.name = "controllername"
-  this.zones = {
+ this.zones = {
      map_1021: {
          name: "West Siauliai Woods",
          area: "Klaipeda Area",
@@ -1342,7 +1337,3 @@
          map: ""
      },
  }
-    })
-  //end of function
-})();
-
