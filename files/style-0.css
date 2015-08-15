@@ -107,7 +107,8 @@ input[type=text] {
 
 
 .panel {
-    margin-top:30px;
+    margin-left:-12px;
+    margin-top:12px;
     background-color:transparent;
     border:0px;
 }

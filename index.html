@@ -36,11 +36,10 @@
                 <li role="presentation" data-ng-class="{ active: tabz.isSelected(2)}"><a href data-ng-click="tabz.selectTab(2)"><h5>NPCs</h5></a></li>
                 <li role="presentation" data-ng-class="{ active: tabz.isSelected(3)}"><a href data-ng-click="tabz.selectTab(3)"><h5>Sub Areas</h5></a></li>
             </ul>
-            <div class="panel panel-default" data-ng-show="tabz.isSelected(1)">
-                <div class="panel-body" data-ng-controller="monsterDb as mond">
-                        <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.name">
-                            <!--data-ng-show="monster.where == mapp.zone.name"-->
-<table class="db_equip_table" border="1">
+            <div class="panel panel-default" data-ng-show="tabz.isSelected(1)" data-ng-controller="monsterDb as mond">
+                <div class="panel-body" data-ng-switch on="">
+                    <div data-ng-repeat="monster in mond.monstall" data-ng-switch-when="">
+                        <table class="db_equip_table" border="1">
     <tr>
         <!--<td rowspan="4" style="width: 90px;"><img src="content/img/icons/monsters/mon_Golemlet.png" alt="Icon" style="vertical-align: middle;" /></td>-->
         <th>Name</th>
@@ -92,7 +91,61 @@
         <!--<td>24 ~ 32</td>--><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><!--<td>M</td>-->
     </tr>
 </table>
-                        </div>
+                    </div>
+                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.name">
+                        <table class="db_equip_table" border="1">
+    <tr>
+        <!--<td rowspan="4" style="width: 90px;"><img src="content/img/icons/monsters/mon_Golemlet.png" alt="Icon" style="vertical-align: middle;" /></td>-->
+        <th>Name</th>
+        <th style="width: 70px;">Level</th>
+        <th style="width: 70px;">Type</th>
+        <th style="width: 70px;">Race</th>
+        <th style="width: 70px;">Element</th>
+        <th style="width: 70px;">Armor</th>
+        <th style="width: 70px;">Move</th>
+        <!--<th>Speed</th>-->
+        <th style="width: 70px;">EXP</th>
+        <th style="width: 70px;">Class EXP</th>
+        <!--<th>Size</th>-->
+    </tr>
+    <tr>
+        <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
+        <td data-ng-switch on="monster.kind">
+            <img ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
+            <img ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
+            {{monster.kind}}</td>
+        <td data-ng-switch on="monster.race">
+            <img ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
+            <img ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
+            <img ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
+            <img ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
+            <img ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
+            {{monster.race}}</td>
+        <td data-ng-switch on="monster.elem">
+            <img ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
+            <img ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
+            <img ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
+            <img ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
+            <img ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
+            <img ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
+            <img ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
+            <img ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
+            {{monster.elem}}</td>
+        <td data-ng-switch on="monster.armr">
+            <img ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
+            <img ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
+            <img ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
+            <img ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
+            {{monster.armr}}</td>
+        <td data-ng-switch on="monster.foot">
+            <img ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
+            <img ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
+            <img ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
+            {{monster.foot}}</td>
+        <!--<td>24 ~ 32</td>--><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><!--<td>M</td>-->
+    </tr>
+</table>
+                    </div>
                 </div>
             </div>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(2)">
