@@ -30,7 +30,6 @@
         <img style="width:95%" data-ng-src="{{mapp.zone.map}}" data-ng-show="mapp.zone.map"/>
         <!--<img src="map/innerdistrict.jpg"/>-->
         <h2>{{mapp.zone.name}}</h2>
-        <h2>{{mapp.Highlighted(mapp.zone)}}</h2>
         <section data-ng-controller="tabControl as tabz">
             <ul class="nav nav-tabs">
                 <li role="presentation" data-ng-class="{ active: tabz.isSelected(1)}"><a href data-ng-click="tabz.selectTab(1)"><h5>Monsters</h5></a></li>

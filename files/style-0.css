@@ -8,11 +8,13 @@ body {
 button, input, select, textarea { font-family: inherit; }
 
 .reddot {
-    display: block;
-    line-height: 47px;
-    background-image: url(files/area_icon2.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(235, 255, 100,.55);
+  border-radius: 100%;
 }
 
 h1 {
