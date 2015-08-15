@@ -1340,7 +1340,7 @@
          level: 470,
          map: ""
      }
-     };
+};
     this.zone = this.zones.map_1021;
     this.selectZone = function(setZone){
           this.zone = setZone;
@@ -1358,7 +1358,10 @@
           return this.tab === checkTab;
       };
     }) //end of controller
-  app.controller('monsterDb', function() {
+  app.controller('monsterDb', function($controller) {
+    //create instance of parent controller
+    this.maplook = $controller('mapSelector',{});
+    //^works
     this.monstall = {
     monst_1: {
         name: "Golemlet",
@@ -2211,7 +2214,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_62: {
@@ -2225,7 +2228,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_63: {
@@ -2239,7 +2242,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "Gate Route",
         notes: ""
     },
     monst_64: {
@@ -2295,7 +2298,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_68: {
@@ -2309,7 +2312,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_69: {
@@ -2337,7 +2340,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_71: {
@@ -2365,7 +2368,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_73: {
@@ -2393,7 +2396,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_75: {
@@ -2435,7 +2438,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_78: {
@@ -2449,7 +2452,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_79: {
@@ -2603,7 +2606,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_90: {
@@ -2617,7 +2620,7 @@
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_91: {
@@ -9775,9 +9778,13 @@
         notes: ""
     }
 };
-      this.search = function(monster) {
-       return monster.where == mapp.zone   
-      }
+    this.search = function(monster) {
+        var found = [];
+        if (monster.where == this.maplook.zone.name) {
+         found.push(monster);   
+        }
+       return found;
+    };
     }) //end of controller
   //end of function
 })();

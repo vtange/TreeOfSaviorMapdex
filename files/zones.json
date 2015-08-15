@@ -1,4 +1,4 @@
- this.zones = {
+{
      map_1021: {
          name: "West Siauliai Woods",
          area: "Klaipeda Area",
@@ -851,7 +851,7 @@
          area: "Kallis Province",
          type: "Field",
          level: 196,
-         map: ""
+         map: "map/innerdistrict.jpg"
      },
      map_1701: {
          name: "Sentry Bailey",
@@ -1335,5 +1335,5 @@
          type: "Field",
          level: 470,
          map: ""
-     },
- }
+     }
+}
