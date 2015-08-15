@@ -6,15 +6,18 @@ body {
     background-color: #16171A;
 }
 button, input, select, textarea { font-family: inherit; }
-a {
-    color: #3f70b9;
-    text-decoration: none;
+
+.dot {
+    display: block;
+    line-height: 47px;
+    background-image: url(files/area_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-a:hover {
-    
-}
-a:active {
-    background-image: url(files/area_icon2.png)
+
+
+a .active {
+    background-image: url(files/area_icon2.png);   
 }
 
 h1 {
@@ -42,6 +45,10 @@ h2 {
     border: 1px solid white;
     border-radius: 5px;
     text-shadow: 5px 5px 10px rgba(200,200,200,0.5);
+}
+h4 {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 iframe {
@@ -108,10 +115,10 @@ input[type=text] {
     border:0px;
 }
 table {
-    margin-top:20px;
-    margin-bottom: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
-th {
-    width:100px;
+td {
+    text-align: center;
 }
     
