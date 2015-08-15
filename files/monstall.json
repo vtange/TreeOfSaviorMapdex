@@ -388,7 +388,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_29: {
@@ -850,7 +850,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_62: {
@@ -864,7 +864,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_63: {
@@ -878,7 +878,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "Gate Route",
         notes: ""
     },
     monst_64: {
@@ -934,7 +934,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_68: {
@@ -948,7 +948,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_69: {
@@ -976,7 +976,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_71: {
@@ -1004,7 +1004,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_73: {
@@ -1032,7 +1032,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_75: {
@@ -1074,7 +1074,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_78: {
@@ -1088,7 +1088,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "West Siauliai Woods",
         notes: ""
     },
     monst_79: {
@@ -1242,7 +1242,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_90: {
@@ -1256,7 +1256,7 @@ this.monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "East Siauliai Woods",
         notes: ""
     },
     monst_91: {
