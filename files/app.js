@@ -1346,7 +1346,7 @@
           this.zone = setZone;
     };
     this.Highlighted = function(checkZone){
-          return this.zone == checkZone;
+          return this.zone === checkZone;
     };
     }) //end of controller
   app.controller('tabControl', function() {

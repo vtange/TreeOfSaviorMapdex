@@ -7,17 +7,12 @@ body {
 }
 button, input, select, textarea { font-family: inherit; }
 
-.dot {
+.reddot {
     display: block;
     line-height: 47px;
-    background-image: url(files/area_icon.png);
+    background-image: url(files/area_icon2.png);
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-
-a .active {
-    background-image: url(files/area_icon2.png);   
 }
 
 h1 {
