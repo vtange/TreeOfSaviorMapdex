@@ -9778,13 +9778,6 @@
         notes: ""
     }
 };
-    this.search = function(monster) {
-        var found = [];
-        if (monster.where == this.maplook.zone.name) {
-         found.push(monster);   
-        }
-       return found;
-    };
     }) //end of controller
   //end of function
 })();
