@@ -1,4 +1,4 @@
-this.monstall = {
+monstall = {
     monst_1: {
         name: "Golemlet",
         kind: "Normal",
