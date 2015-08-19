@@ -192,7 +192,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_3840",
         notes: ""
     },
     monst_15: {
@@ -1368,7 +1368,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_99: {
@@ -1382,7 +1382,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_100: {
@@ -1396,7 +1396,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_101: {
@@ -1410,7 +1410,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_102: {
@@ -1424,7 +1424,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_103: {
@@ -1438,7 +1438,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_104: {
@@ -1466,7 +1466,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1041",
         notes: ""
     },
     monst_106: {
@@ -1480,7 +1480,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_107: {
@@ -1494,7 +1494,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_108: {
@@ -1508,7 +1508,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_109: {
@@ -1522,7 +1522,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_110: {
@@ -1536,7 +1536,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_111: {
@@ -1550,7 +1550,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_112: {
@@ -1564,7 +1564,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_113: {
@@ -1578,7 +1578,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_114: {
@@ -1606,7 +1606,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_116: {
@@ -1662,7 +1662,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_120: {
@@ -1676,7 +1676,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_121: {
@@ -1718,7 +1718,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_124: {
@@ -1732,7 +1732,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_125: {
@@ -1760,7 +1760,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_127: {
@@ -1774,7 +1774,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_128: {
@@ -1788,7 +1788,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_129: {
@@ -1802,7 +1802,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_130: {
@@ -1816,7 +1816,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_131: {
@@ -1844,7 +1844,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_133: {
@@ -1858,7 +1858,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_134: {
@@ -1872,7 +1872,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_135: {
@@ -1886,7 +1886,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_136: {
@@ -1914,7 +1914,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_138: {
@@ -1928,7 +1928,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1051",
         notes: ""
     },
     monst_139: {
@@ -1942,7 +1942,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2081",
         notes: ""
     },
     monst_140: {
@@ -1956,7 +1956,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2081",
         notes: ""
     },
     monst_141: {
@@ -1984,7 +1984,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2081",
         notes: ""
     },
     monst_143: {
@@ -1998,7 +1998,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2081",
         notes: ""
     },
     monst_144: {
@@ -2026,7 +2026,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_146: {
@@ -2040,7 +2040,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_147: {
@@ -2054,7 +2054,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_148: {
@@ -2068,7 +2068,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_149: {
@@ -2082,7 +2082,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_150: {
@@ -2096,7 +2096,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_151: {
@@ -2110,7 +2110,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_152: {
@@ -2166,7 +2166,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2082",
         notes: ""
     },
     monst_156: {
@@ -2180,7 +2180,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_157: {
@@ -2194,7 +2194,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_158: {
@@ -2208,7 +2208,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_159: {
@@ -2222,7 +2222,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_160: {
@@ -2236,7 +2236,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_161: {
@@ -2250,7 +2250,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_162: {
@@ -2264,7 +2264,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_163: {
@@ -2278,7 +2278,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_164: {
@@ -2306,7 +2306,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_166: {
@@ -2320,7 +2320,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_167: {
@@ -2348,7 +2348,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_169: {
@@ -2362,7 +2362,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_170: {
@@ -2376,7 +2376,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2083",
         notes: ""
     },
     monst_171: {
@@ -2418,7 +2418,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_174: {
@@ -2446,7 +2446,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_176: {
@@ -2460,7 +2460,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_177: {
@@ -2474,11 +2474,11 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_178: {
-        name: "Rodelin",
+        name: "Brown Rodelin",
         kind: "Normal",
         race: "Demon",
         elem: "Dark",
@@ -2488,7 +2488,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_179: {
@@ -2502,7 +2502,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_180: {
@@ -2516,7 +2516,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_181: {
@@ -2530,7 +2530,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_182: {
@@ -2558,7 +2558,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_184: {
@@ -2572,7 +2572,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_185: {
@@ -2586,7 +2586,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_186: {
@@ -2600,7 +2600,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_187: {
@@ -2628,7 +2628,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_189: {
@@ -2642,7 +2642,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_190: {
@@ -2656,7 +2656,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_191: {
@@ -2670,7 +2670,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_192: {
@@ -2684,7 +2684,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_193: {
@@ -2698,7 +2698,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_194: {
@@ -2712,11 +2712,11 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_195: {
-        name: "??",
+        name: "Pawndel",
         kind: "Normal",
         race: "Demon",
         elem: "Dark",
@@ -2726,7 +2726,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_196: {
@@ -2740,7 +2740,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_197: {
@@ -2768,7 +2768,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_199: {
@@ -2782,7 +2782,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_200: {
@@ -2810,7 +2810,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_202: {
@@ -2838,7 +2838,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_204: {
@@ -2852,7 +2852,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_205: {
@@ -2866,7 +2866,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_206: {
@@ -2880,11 +2880,11 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2084",
         notes: ""
     },
     monst_207: {
-        name: "??",
+        name: "Pond",
         kind: "Normal",
         race: "Demon",
         elem: "Dark",
@@ -2894,7 +2894,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_208: {
@@ -2922,7 +2922,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2088",
         notes: ""
     },
     monst_210: {
@@ -2936,7 +2936,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_211: {
@@ -2950,7 +2950,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_212: {
@@ -2964,7 +2964,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_213: {
@@ -2978,7 +2978,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_214: {
@@ -2992,7 +2992,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_215: {
@@ -3006,7 +3006,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_216: {
@@ -3020,7 +3020,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_217: {
@@ -3076,7 +3076,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2085",
         notes: ""
     },
     monst_221: {
@@ -3090,7 +3090,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2089",
         notes: ""
     },
     monst_222: {
@@ -3104,7 +3104,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2090",
         notes: ""
     },
     monst_223: {
@@ -3118,7 +3118,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2090",
         notes: ""
     },
     monst_224: {
@@ -3188,7 +3188,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_229: {
@@ -3202,7 +3202,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2090",
         notes: ""
     },
     monst_230: {
@@ -3286,7 +3286,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_236: {
@@ -3300,7 +3300,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_237: {
@@ -3328,7 +3328,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_239: {
@@ -3342,7 +3342,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_240: {
@@ -3384,7 +3384,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_243: {
@@ -3412,7 +3412,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2091",
         notes: ""
     },
     monst_245: {
@@ -3468,7 +3468,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_249: {
@@ -3496,7 +3496,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1201",
         notes: ""
     },
     monst_251: {
@@ -3510,7 +3510,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1251",
         notes: ""
     },
     monst_252: {
@@ -3524,7 +3524,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1201",
         notes: ""
     },
     monst_253: {
@@ -3538,7 +3538,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1201",
         notes: ""
     },
     monst_254: {
@@ -3580,7 +3580,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1201",
         notes: ""
     },
     monst_257: {
@@ -3594,7 +3594,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1251",
         notes: ""
     },
     monst_258: {
@@ -3608,7 +3608,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1251",
         notes: ""
     },
     monst_259: {
@@ -3636,7 +3636,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1201",
         notes: ""
     },
     monst_261: {
@@ -3650,7 +3650,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_262: {
@@ -3678,7 +3678,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1251",
         notes: ""
     },
     monst_264: {
@@ -3720,7 +3720,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_267: {
@@ -3734,7 +3734,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_268: {
@@ -3748,7 +3748,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1261",
         notes: ""
     },
     monst_269: {
@@ -3762,7 +3762,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1261",
         notes: ""
     },
     monst_270: {
@@ -3818,7 +3818,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_274: {
@@ -3832,7 +3832,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1261",
         notes: ""
     },
     monst_275: {
@@ -3860,7 +3860,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_277: {
@@ -3874,7 +3874,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_278: {
@@ -3888,7 +3888,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1211",
         notes: ""
     },
     monst_279: {
@@ -3902,7 +3902,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1261",
         notes: ""
     },
     monst_280: {
@@ -3916,7 +3916,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_281: {
@@ -3930,7 +3930,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_282: {
@@ -3944,7 +3944,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_283: {
@@ -3958,7 +3958,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_284: {
@@ -3986,7 +3986,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1271",
         notes: ""
     },
     monst_286: {
@@ -4000,7 +4000,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_287: {
@@ -4014,7 +4014,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_288: {
@@ -4028,7 +4028,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1271",
         notes: ""
     },
     monst_289: {
@@ -4056,7 +4056,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1271",
         notes: ""
     },
     monst_291: {
@@ -4070,7 +4070,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_292: {
@@ -4084,7 +4084,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1221",
         notes: ""
     },
     monst_293: {
@@ -4098,7 +4098,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_3840",
         notes: ""
     },
     monst_294: {
@@ -4168,7 +4168,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1281",
         notes: ""
     },
     monst_299: {
@@ -4182,7 +4182,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1281",
         notes: ""
     },
     monst_300: {
@@ -4196,7 +4196,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1281",
         notes: ""
     },
     monst_301: {
@@ -4210,7 +4210,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1281",
         notes: ""
     },
     monst_302: {
@@ -4238,7 +4238,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1291",
         notes: ""
     },
     monst_304: {
@@ -4266,7 +4266,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1180",
         notes: ""
     },
     monst_306: {
@@ -4294,7 +4294,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1291",
         notes: ""
     },
     monst_308: {
@@ -4350,7 +4350,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1180",
         notes: ""
     },
     monst_312: {
@@ -4378,7 +4378,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1301",
         notes: ""
     },
     monst_314: {
@@ -4420,7 +4420,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1301",
         notes: ""
     },
     monst_317: {
@@ -4476,7 +4476,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1301",
         notes: ""
     },
     monst_321: {
@@ -4532,7 +4532,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1311",
         notes: ""
     },
     monst_325: {
@@ -4630,7 +4630,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1311",
         notes: ""
     },
     monst_332: {
@@ -4672,7 +4672,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1321",
         notes: ""
     },
     monst_335: {
@@ -4686,7 +4686,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1321",
         notes: ""
     },
     monst_336: {
@@ -4742,7 +4742,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_340: {
@@ -4756,7 +4756,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_341: {
@@ -4770,7 +4770,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_342: {
@@ -4812,11 +4812,11 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_345: {
-        name: "Orange Ha Min",
+        name: "Orange Hamming",
         kind: "Normal",
         race: "Plant",
         elem: "Lightning",
@@ -4826,7 +4826,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1176",
         notes: ""
     },
     monst_346: {
@@ -4882,7 +4882,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_350: {
@@ -4896,7 +4896,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_351: {
@@ -4938,7 +4938,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1176",
         notes: ""
     },
     monst_354: {
@@ -4952,7 +4952,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_355: {
@@ -4966,7 +4966,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_356: {
@@ -4994,7 +4994,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_358: {
@@ -5008,7 +5008,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_3750",
         notes: ""
     },
     monst_359: {
@@ -5036,7 +5036,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_361: {
@@ -5050,7 +5050,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_362: {
@@ -5064,7 +5064,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_363: {
@@ -5106,7 +5106,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_366: {
@@ -5134,7 +5134,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_368: {
@@ -5148,7 +5148,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_369: {
@@ -5162,7 +5162,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_370: {
@@ -5190,7 +5190,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1421",
         notes: ""
     },
     monst_372: {
@@ -5204,7 +5204,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1331",
         notes: ""
     },
     monst_373: {
@@ -5232,7 +5232,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1421",
         notes: ""
     },
     monst_375: {
@@ -5246,7 +5246,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1421",
         notes: ""
     },
     monst_376: {
@@ -5278,7 +5278,7 @@ monstall = {
         notes: ""
     },
     monst_378: {
-        name: "Long",
+        name: "Long-Sleeved Tree",
         kind: "Normal",
         race: "Plant",
         elem: "Earth",
@@ -5288,7 +5288,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1431",
         notes: ""
     },
     monst_379: {
@@ -5372,7 +5372,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1441",
         notes: ""
     },
     monst_385: {
@@ -5442,7 +5442,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1441",
         notes: ""
     },
     monst_390: {
@@ -5484,7 +5484,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1441",
         notes: ""
     },
     monst_393: {
@@ -5498,7 +5498,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1441",
         notes: ""
     },
     monst_394: {
@@ -5512,7 +5512,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_395: {
@@ -5526,7 +5526,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1081",
         notes: ""
     },
     monst_396: {
@@ -5596,7 +5596,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1451",
         notes: ""
     },
     monst_401: {
@@ -5624,7 +5624,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1081",
         notes: ""
     },
     monst_403: {
@@ -5638,7 +5638,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1081",
         notes: ""
     },
     monst_404: {
@@ -5708,7 +5708,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1081",
         notes: ""
     },
     monst_409: {
@@ -5722,7 +5722,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1451",
         notes: ""
     },
     monst_410: {
@@ -5778,7 +5778,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1082",
         notes: ""
     },
     monst_414: {
@@ -5806,7 +5806,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1082",
         notes: ""
     },
     monst_416: {
@@ -5820,7 +5820,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1451",
         notes: ""
     },
     monst_417: {
@@ -5890,7 +5890,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1082",
         notes: ""
     },
     monst_422: {
@@ -5904,7 +5904,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1082",
         notes: ""
     },
     monst_423: {
@@ -5932,7 +5932,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1141",
         notes: ""
     },
     monst_425: {
@@ -5960,7 +5960,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1141",
         notes: ""
     },
     monst_427: {
@@ -5974,7 +5974,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_428: {
@@ -5988,7 +5988,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_429: {
@@ -6002,7 +6002,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1141",
         notes: ""
     },
     monst_430: {
@@ -6016,7 +6016,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_431: {
@@ -6058,7 +6058,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_434: {
@@ -6086,7 +6086,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1151",
         notes: ""
     },
     monst_436: {
@@ -6100,7 +6100,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_437: {
@@ -6128,7 +6128,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1151",
         notes: ""
     },
     monst_439: {
@@ -6142,7 +6142,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_440: {
@@ -6198,7 +6198,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1151",
         notes: ""
     },
     monst_444: {
@@ -6254,7 +6254,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_448: {
@@ -6296,7 +6296,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1151",
         notes: ""
     },
     monst_451: {
@@ -6324,7 +6324,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_453: {
@@ -6338,7 +6338,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_454: {
@@ -6352,7 +6352,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_455: {
@@ -6366,7 +6366,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_456: {
@@ -6380,7 +6380,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1231",
         notes: ""
     },
     monst_457: {
@@ -6408,7 +6408,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_459: {
@@ -6436,7 +6436,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1231",
         notes: ""
     },
     monst_461: {
@@ -6506,7 +6506,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1231",
         notes: ""
     },
     monst_466: {
@@ -6520,7 +6520,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1231",
         notes: ""
     },
     monst_467: {
@@ -6604,7 +6604,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1511",
         notes: ""
     },
     monst_473: {
@@ -6618,7 +6618,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_474: {
@@ -6632,7 +6632,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_475: {
@@ -6674,7 +6674,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_478: {
@@ -6702,7 +6702,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_480: {
@@ -6730,7 +6730,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_482: {
@@ -6744,7 +6744,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_483: {
@@ -6758,7 +6758,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_484: {
@@ -6772,7 +6772,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_485: {
@@ -6786,7 +6786,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_486: {
@@ -6800,7 +6800,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_487: {
@@ -6814,7 +6814,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1241",
         notes: ""
     },
     monst_488: {
@@ -6828,7 +6828,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_489: {
@@ -6842,7 +6842,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1551",
         notes: ""
     },
     monst_490: {
@@ -6856,7 +6856,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_491: {
@@ -6884,7 +6884,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1461",
         notes: ""
     },
     monst_493: {
@@ -6940,7 +6940,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1561",
         notes: ""
     },
     monst_497: {
@@ -6982,7 +6982,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1561",
         notes: ""
     },
     monst_500: {
@@ -7024,7 +7024,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_3840",
         notes: ""
     },
     monst_503: {
@@ -7234,7 +7234,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2300",
         notes: ""
     },
     monst_518: {
@@ -7276,7 +7276,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2300",
         notes: ""
     },
     monst_521: {
@@ -7360,7 +7360,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2301",
         notes: ""
     },
     monst_527: {
@@ -7374,7 +7374,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2301",
         notes: ""
     },
     monst_528: {
@@ -7430,7 +7430,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1175",
         notes: ""
     },
     monst_532: {
@@ -7486,7 +7486,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1175",
         notes: ""
     },
     monst_536: {
@@ -7500,7 +7500,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1175",
         notes: ""
     },
     monst_537: {
@@ -7542,7 +7542,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1174",
         notes: ""
     },
     monst_540: {
@@ -7640,7 +7640,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1174",
         notes: ""
     },
     monst_547: {
@@ -7682,7 +7682,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1174",
         notes: ""
     },
     monst_550: {
@@ -7738,7 +7738,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1173",
         notes: ""
     },
     monst_554: {
@@ -7752,7 +7752,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1173",
         notes: ""
     },
     monst_555: {
@@ -7766,7 +7766,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1173",
         notes: ""
     },
     monst_556: {
@@ -7780,7 +7780,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1172",
         notes: ""
     },
     monst_557: {
@@ -7808,7 +7808,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1172",
         notes: ""
     },
     monst_559: {
@@ -7850,7 +7850,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2511",
         notes: ""
     },
     monst_562: {
@@ -8004,7 +8004,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_2521",
         notes: ""
     },
     monst_573: {
@@ -8032,7 +8032,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1641",
         notes: ""
     },
     monst_575: {
@@ -8046,7 +8046,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1641",
         notes: ""
     },
     monst_576: {
@@ -8102,7 +8102,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1651",
         notes: ""
     },
     monst_580: {
@@ -8116,7 +8116,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1651",
         notes: ""
     },
     monst_581: {
@@ -8186,7 +8186,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1661",
         notes: ""
     },
     monst_586: {
@@ -8200,7 +8200,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1661",
         notes: ""
     },
     monst_587: {
@@ -8242,7 +8242,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1681",
         notes: ""
     },
     monst_590: {
@@ -8256,7 +8256,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1411",
         notes: ""
     },
     monst_591: {
@@ -8270,7 +8270,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1681",
         notes: ""
     },
     monst_592: {
@@ -8284,7 +8284,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1681",
         notes: ""
     },
     monst_593: {
@@ -8298,7 +8298,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1691",
         notes: ""
     },
     monst_594: {
@@ -8312,7 +8312,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1691",
         notes: ""
     },
     monst_595: {
@@ -8340,7 +8340,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1691",
         notes: ""
     },
     monst_597: {
@@ -8354,7 +8354,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_1691",
         notes: ""
     },
     monst_598: {
@@ -8382,7 +8382,7 @@ monstall = {
         hp: 10,
         bxp: 10,
         cxp: 10,
-        where: "",
+        where: "map_3470",
         notes: ""
     },
     monst_600: {
