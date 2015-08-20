@@ -40,7 +40,7 @@
             </ul>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(1)" data-ng-controller="monsterDb as mond">
                 <div class="panel-body" data-ng-switch on="tabz.monsterToggle">
-                    <button ng-click="tabz.toggle()">Search Monsters</button>
+
                     <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id" ng-switch-when="0">
                         <table class="db_equip_table" border="1">
     <tr>
@@ -149,6 +149,7 @@
     </tr>
 </table>
                     </div>
+                    <!--<button ng-click="tabz.toggle()">Search Monsters</button>---------------------------------make a search form footer that spits out a list in another page------>
                 </div>
             </div>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(2)">
