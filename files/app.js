@@ -1,6 +1,19 @@
 (function() {
     //start of function
   var app = angular.module('mapDex', []);
+    /*
+app.filter('bossOnly', function() {
+    return function(input) {
+        var out = {};
+        for (var i = 0; i < input.length; i++) {
+            if(input[i].kind == "Boss"){
+                out[key] = input[i];
+            }
+        }
+        return out;
+    }
+});
+*/
   app.controller('mapSelector', function() {
     this.zones = zones;
     this.zone = this.zones.map_1021;
@@ -19,11 +32,17 @@
       this.isSelected = function(checkTab){
           return this.tab === checkTab;
       };
+      this.monsterToggle = 0;
+      this.toggle = function(){
+        if(this.monsterToggle == 0){
+            return this.monsterToggle = 1;
+        }
+        else {
+            return this.monsterToggle = 0;
+        }
+      };
     }) //end of controller
   app.controller('monsterDb', function($controller) {
-    //create instance of parent controller
-    this.maplook = $controller('mapSelector',{});
-    //^works
     this.monstall = monstall;
     }) //end of controller
   //end of function
