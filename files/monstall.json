@@ -11,6 +11,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Golemlet.png"
     },
@@ -26,6 +27,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_squa.png"
     },
@@ -41,6 +43,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mirtislampa.png"
     },
@@ -56,6 +59,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Deadbornscab.png"
     },
@@ -71,6 +75,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_NetherCalf.png"
     },
@@ -86,6 +91,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Infrogalas.png"
     },
@@ -101,6 +107,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Carnivorefung.png"
     },
@@ -116,6 +123,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Templeslave.png"
     },
@@ -131,6 +139,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ringring.png"
     },
@@ -146,6 +155,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_woodin.png"
     },
@@ -161,6 +171,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rajapearlite.png"
     },
@@ -176,6 +187,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Minelever.png"
     },
@@ -191,6 +203,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Rajatadpole.png"
     },
@@ -206,6 +219,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_3840",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/NightMaiden.png"
     },
@@ -221,6 +235,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Worg.png"
     },
@@ -236,6 +251,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/saltisdaughter.png"
     },
@@ -251,6 +267,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ellom_yellow.png"
     },
@@ -266,6 +283,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tower_of_fire_puppet_yellow.png"
     },
@@ -281,6 +299,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "Miner's Village",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Goblin_Archer.png"
     },
@@ -296,6 +315,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushroom_ent.png"
     },
@@ -311,6 +331,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Ellomago.png"
     },
@@ -326,6 +347,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_new_desmodus.png"
     },
@@ -341,6 +363,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -356,6 +379,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -371,6 +395,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_dubby.png"
     },
@@ -386,6 +411,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/.png"
     },
@@ -401,6 +427,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_spector_F_purple.png"
     },
@@ -416,6 +443,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion.png"
     },
@@ -431,6 +459,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/cepa_toxic.png"
     },
@@ -446,6 +475,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_auburn_pokubu_beige.png"
     },
@@ -461,6 +491,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_banshee_yellow.png"
     },
@@ -476,6 +507,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider_purple.png"
     },
@@ -491,6 +523,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider_red.png"
     },
@@ -506,6 +539,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider_white.png"
     },
@@ -521,6 +555,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider_yellow.png"
     },
@@ -536,6 +571,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_flower.png"
     },
@@ -551,6 +587,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_flower_red.png"
     },
@@ -566,6 +603,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Goblin_Warrior_red.png"
     },
@@ -581,6 +619,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_jellyfish_green.png"
     },
@@ -596,6 +635,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_01_red.png"
     },
@@ -611,6 +651,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_02.png"
     },
@@ -626,6 +667,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_03_green.png"
     },
@@ -641,6 +683,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_lantern_mushroom.png"
     },
@@ -656,6 +699,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lantern_mushroom_mini.png"
     },
@@ -671,6 +715,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_matsum.png"
     },
@@ -686,6 +731,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mushroom_boy_yellow.png"
     },
@@ -701,6 +747,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushroom_ent_red.png"
     },
@@ -716,6 +763,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_ivory.png"
     },
@@ -731,6 +779,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_violet.png"
     },
@@ -746,6 +795,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_yellow.png"
     },
@@ -761,6 +811,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_rafflesia.png"
     },
@@ -776,6 +827,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_rafflesia_green.png"
     },
@@ -791,6 +843,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/rafflesia_gray.png"
     },
@@ -806,6 +859,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ridimed_red.png"
     },
@@ -821,6 +875,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_sakmoli_green.png"
     },
@@ -836,6 +891,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/spector_f.png"
     },
@@ -851,6 +907,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/spector_f.png"
     },
@@ -866,6 +923,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/spector_m.png"
     },
@@ -881,6 +939,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Woodman_gray.png"
     },
@@ -896,6 +955,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_truffle.png"
     },
@@ -911,6 +971,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/chupacabra3.png"
     },
@@ -926,6 +987,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/popolion3.png"
     },
@@ -941,6 +1003,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "Gate Route",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -956,6 +1019,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Candle_Spider_Blue.png"
     },
@@ -971,6 +1035,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion.png"
     },
@@ -986,6 +1051,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion.png"
     },
@@ -1001,6 +1067,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_moss3.png"
     },
@@ -1016,6 +1083,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushcarfung.png"
     },
@@ -1031,6 +1099,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Golem.png"
     },
@@ -1046,6 +1115,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/hanaming.png"
     },
@@ -1061,6 +1131,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Golem.png"
     },
@@ -1076,6 +1147,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mushcaria.png"
     },
@@ -1091,6 +1163,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mushcaria.png"
     },
@@ -1106,6 +1179,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bokchoy.png"
     },
@@ -1121,6 +1195,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bokchoy.png"
     },
@@ -1136,6 +1211,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_jukopus_blue.png"
     },
@@ -1151,6 +1227,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Rocktortuga.png"
     },
@@ -1166,6 +1243,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1021",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_roctor.png"
     },
@@ -1181,6 +1259,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_roctor.png"
     },
@@ -1196,6 +1275,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_spear.png"
     },
@@ -1211,6 +1291,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer.png"
     },
@@ -1226,6 +1307,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_poata.png"
     },
@@ -1241,6 +1323,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupacabra_blue.png"
     },
@@ -1256,6 +1339,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupacabra_blue.png"
     },
@@ -1271,6 +1355,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupacabra_ibory.png"
     },
@@ -1286,6 +1371,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Toadalijus.png"
     },
@@ -1301,6 +1387,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_spear.png"
     },
@@ -1316,6 +1403,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer.png"
     },
@@ -1331,6 +1419,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/chupacabra3.png"
     },
@@ -1346,6 +1435,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_poporion_blue.png"
     },
@@ -1361,6 +1451,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_weaver.png"
     },
@@ -1376,6 +1467,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_weaver.png"
     },
@@ -1391,6 +1483,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_weaver.png"
     },
@@ -1406,6 +1499,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Goblin_Warrior.png"
     },
@@ -1421,6 +1515,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1032",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_pokubu.png"
     },
@@ -1436,6 +1531,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Jukopus.png"
     },
@@ -1451,6 +1547,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pokubu.png"
     },
@@ -1466,6 +1563,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Goblin_Warrior_blue.png"
     },
@@ -1481,6 +1579,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Chafer.png"
     },
@@ -1496,6 +1595,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion_red.png"
     },
@@ -1511,6 +1611,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion_red.png"
     },
@@ -1526,6 +1627,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Jukopus.png"
     },
@@ -1541,6 +1643,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_spear.png"
     },
@@ -1556,6 +1659,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_StonOrca.png"
     },
@@ -1571,6 +1675,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1041",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer.png"
     },
@@ -1586,6 +1691,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_miner.png"
     },
@@ -1601,6 +1707,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -1616,6 +1723,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_miner.png"
     },
@@ -1631,6 +1739,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ifrit.png"
     },
@@ -1646,6 +1755,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Strongholder.png"
     },
@@ -1661,6 +1771,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_StonOrca.png"
     },
@@ -1676,6 +1787,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Strongholder.png"
     },
@@ -1691,6 +1803,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_bear.png"
     },
@@ -1706,6 +1819,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ShadowGaoler.png"
     },
@@ -1721,6 +1835,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mirtislampa.png"
     },
@@ -1736,6 +1851,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ShadowGaoler.png"
     },
@@ -1751,6 +1867,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Spector_f_boss.png"
     },
@@ -1766,6 +1883,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ginklas.png"
     },
@@ -1781,6 +1899,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stone_Whale.png"
     },
@@ -1796,6 +1915,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Carapace.png"
     },
@@ -1811,6 +1931,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stone_Whale.png"
     },
@@ -1826,6 +1947,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_stone_whale_orange.png"
     },
@@ -1841,6 +1963,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Shredded.png"
     },
@@ -1856,6 +1979,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Yekubite.png"
     },
@@ -1871,6 +1995,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_Spector_m.png"
     },
@@ -1886,6 +2011,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/spector_m.png"
     },
@@ -1901,6 +2027,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/spector_m.png"
     },
@@ -1916,6 +2043,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer.png"
     },
@@ -1931,6 +2059,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_NetherBovine.png"
     },
@@ -1946,6 +2075,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage.png"
     },
@@ -1961,6 +2091,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_NetherBovine.png"
     },
@@ -1976,6 +2107,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_NetherBovine.png"
     },
@@ -1991,6 +2123,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_quartz_weaver.png"
     },
@@ -2006,6 +2139,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage.png"
     },
@@ -2021,6 +2155,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mirtis.png"
     },
@@ -2036,6 +2171,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Goblin_Warrior.png"
     },
@@ -2051,6 +2187,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Goblin_Warrior.png"
     },
@@ -2066,6 +2203,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Deathweaver.png"
     },
@@ -2081,6 +2219,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Zignuts.png"
     },
@@ -2096,6 +2235,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Panto_Ghand.png"
     },
@@ -2111,6 +2251,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ridimed_blue.png"
     },
@@ -2126,6 +2267,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_grummer.png"
     },
@@ -2141,6 +2283,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_capria.png"
     },
@@ -2156,6 +2299,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Shredded.png"
     },
@@ -2171,6 +2315,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Humming_bud.png"
     },
@@ -2186,6 +2331,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Panto_Gwand.png"
     },
@@ -2201,6 +2347,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Panto_Gstaff.png"
     },
@@ -2216,6 +2363,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Panto_sword2.png"
     },
@@ -2231,6 +2379,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mally.png"
     },
@@ -2246,6 +2395,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Carnivore.png"
     },
@@ -2261,6 +2411,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Leafly.png"
     },
@@ -2276,6 +2427,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Firent.png"
     },
@@ -2291,6 +2443,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tower_of_fire_puppet.png"
     },
@@ -2306,6 +2459,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_zombiegirl2.png"
     },
@@ -2321,6 +2475,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_simorph.png"
     },
@@ -2336,6 +2491,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Minotaurs.png"
     },
@@ -2351,6 +2507,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Minotaurs.png"
     },
@@ -2366,6 +2523,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_02_brown.png"
     },
@@ -2381,6 +2539,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Firent.png"
     },
@@ -2396,6 +2555,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_seedmia.png"
     },
@@ -2411,6 +2571,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_01_green.png"
     },
@@ -2426,6 +2587,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Minotaurs.png"
     },
@@ -2441,6 +2603,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mallardu.png"
     },
@@ -2456,6 +2619,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_panto_javelin_elite.png"
     },
@@ -2471,6 +2635,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Chapparition.png"
     },
@@ -2486,6 +2651,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_banshee.png"
     },
@@ -2501,6 +2667,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/maggot.png"
     },
@@ -2516,6 +2683,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Humming_bud.png"
     },
@@ -2531,6 +2699,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Throneweaver.png"
     },
@@ -2546,6 +2715,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2083",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_02_brown.png"
     },
@@ -2561,6 +2731,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_moss3_purple.png"
     },
@@ -2576,6 +2747,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushcarfung.png"
     },
@@ -2591,6 +2763,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_seedmia.png"
     },
@@ -2606,6 +2779,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Candle_Spider.png"
     },
@@ -2621,6 +2795,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mallardu.png"
     },
@@ -2636,6 +2811,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_panto_javelin_elite.png"
     },
@@ -2651,6 +2827,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_BiteRegina.png"
     },
@@ -2666,6 +2843,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_zombiegirl2.png"
     },
@@ -2681,6 +2859,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Unknocker.png"
     },
@@ -2696,6 +2875,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Sparnanman.png"
     },
@@ -2711,6 +2891,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Nepenthes.png"
     },
@@ -2726,6 +2907,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Glizardon.png"
     },
@@ -2741,6 +2923,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Sparnanman.png"
     },
@@ -2756,6 +2939,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Chapparition.png"
     },
@@ -2771,6 +2955,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Mummyghast.png"
     },
@@ -2786,6 +2971,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_zombiegirl2.png"
     },
@@ -2801,6 +2987,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_new_desmodus.png"
     },
@@ -2816,6 +3003,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Unknocker.png"
     },
@@ -2831,6 +3019,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_necrovanter.png"
     },
@@ -2846,6 +3035,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_necrovanter.png"
     },
@@ -2861,6 +3051,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Strongholder.png"
     },
@@ -2876,6 +3067,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Egnome.png"
     },
@@ -2891,6 +3083,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Glizardon.png"
     },
@@ -2906,6 +3099,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Corylus.png"
     },
@@ -2921,6 +3115,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pawndel.png"
     },
@@ -2936,6 +3131,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Mummyghast.png"
     },
@@ -2951,6 +3147,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Moyabruka.png"
     },
@@ -2966,6 +3163,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tanu.png"
     },
@@ -2981,6 +3179,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tipio.png"
     },
@@ -2996,6 +3195,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Galok.png"
     },
@@ -3011,6 +3211,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_merregina.png"
     },
@@ -3026,6 +3227,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Moyabruka.png"
     },
@@ -3041,6 +3243,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Doyor.png"
     },
@@ -3056,6 +3259,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Malletwyvern.png"
     },
@@ -3071,6 +3275,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Beetow.png"
     },
@@ -3086,6 +3291,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2084",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_BiteRegina.png"
     },
@@ -3101,6 +3307,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_pawnd.png"
     },
@@ -3116,6 +3323,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Beetow.png"
     },
@@ -3131,6 +3339,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2088",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_merregina.png"
     },
@@ -3146,6 +3355,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Egnome.png"
     },
@@ -3161,6 +3371,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_necrovanter.png"
     },
@@ -3176,6 +3387,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Moldyhorn.png"
     },
@@ -3191,6 +3403,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Zibu_Maize.png"
     },
@@ -3206,6 +3419,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_colitile.png"
     },
@@ -3221,6 +3435,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_spirit_blue.png"
     },
@@ -3236,6 +3451,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rudas_loxodon.png"
     },
@@ -3251,6 +3467,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Golemlet.png"
     },
@@ -3266,6 +3483,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Candle_Spider.png"
     },
@@ -3281,6 +3499,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Upent.png"
     },
@@ -3296,6 +3515,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2085",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Spector_Gh.png"
     },
@@ -3311,6 +3531,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2089",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Ultanun.png"
     },
@@ -3326,6 +3547,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2090",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Colimencia.png"
     },
@@ -3341,6 +3563,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2090",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Upent.png"
     },
@@ -3356,6 +3579,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mentiwood.png"
     },
@@ -3371,6 +3595,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -3386,6 +3611,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -3401,6 +3627,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_Harpeia_white.png"
     },
@@ -3416,6 +3643,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -3431,6 +3659,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2090",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Caro.png"
     },
@@ -3446,6 +3675,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Candle_Spider.png"
     },
@@ -3461,6 +3691,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_moss3_purple.png"
     },
@@ -3476,6 +3707,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushcarfung.png"
     },
@@ -3491,6 +3723,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_02_purple.png"
     },
@@ -3506,6 +3739,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_RytaSwort.png"
     },
@@ -3521,6 +3755,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_clymen2.png"
     },
@@ -3536,6 +3771,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Mothstem.png"
     },
@@ -3551,6 +3787,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -3566,6 +3803,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Merge.png"
     },
@@ -3581,6 +3819,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Carcashu.png"
     },
@@ -3596,6 +3835,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Haming.png"
     },
@@ -3611,6 +3851,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Bebraspion.png"
     },
@@ -3626,6 +3867,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tiny.png"
     },
@@ -3641,6 +3883,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_raffly-b.png"
     },
@@ -3656,6 +3899,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2091",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mentiwood.png"
     },
@@ -3671,6 +3915,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Spion.png"
     },
@@ -3686,6 +3931,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/FD_boss_Abomination.png"
     },
@@ -3701,6 +3947,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Beeteros.png"
     },
@@ -3716,6 +3963,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Molich.png"
     },
@@ -3731,6 +3979,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_operor.png"
     },
@@ -3746,6 +3995,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1201",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_thornball_1.png"
     },
@@ -3761,6 +4011,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1251",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tontus.png"
     },
@@ -3776,6 +4027,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1201",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -3791,6 +4043,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1201",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_operor.png"
     },
@@ -3806,6 +4059,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_groll.png"
     },
@@ -3821,6 +4075,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_groll.png"
     },
@@ -3836,6 +4091,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1201",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_truffle.png"
     },
@@ -3851,6 +4107,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1251",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Geppetto.png"
     },
@@ -3866,6 +4123,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1251",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Dandel.png"
     },
@@ -3881,6 +4139,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_lepus.png"
     },
@@ -3896,6 +4155,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1201",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Velwriggler.png"
     },
@@ -3911,6 +4171,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_merog_wogu.png"
     },
@@ -3926,6 +4187,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaulamb.png"
     },
@@ -3941,6 +4203,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1251",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pino.png"
     },
@@ -3956,6 +4219,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_BiteRegina.png"
     },
@@ -3971,6 +4235,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_sparnas.png"
     },
@@ -3986,6 +4251,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -4001,6 +4267,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_groll.png"
     },
@@ -4016,6 +4283,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1261",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_scorpion_small.png"
     },
@@ -4031,6 +4299,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1261",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_yonazolem.png"
     },
@@ -4046,6 +4315,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_rauzinute.png"
     },
@@ -4061,6 +4331,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaumire.png"
     },
@@ -4076,6 +4347,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Spector_gh.png"
     },
@@ -4091,6 +4363,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bagworm.png"
     },
@@ -4106,6 +4379,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1261",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupacabra_desert.png"
     },
@@ -4121,6 +4395,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_merog_wizard.png"
     },
@@ -4136,6 +4411,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_flower_blue.png"
     },
@@ -4151,6 +4427,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_merog_wizard.png"
     },
@@ -4166,6 +4443,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1211",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_merog_wogu.png"
     },
@@ -4181,6 +4459,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1261",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lichenclops.png"
     },
@@ -4196,6 +4475,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Gaigalas.png"
     },
@@ -4211,6 +4491,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_shnayim.png"
     },
@@ -4226,6 +4507,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_meduoliai.png"
     },
@@ -4241,6 +4523,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Chafperor.png"
     },
@@ -4256,6 +4539,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Denoptic.png"
     },
@@ -4271,6 +4555,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1271",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wendigo.png"
     },
@@ -4286,6 +4571,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Molich.png"
     },
@@ -4301,6 +4587,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_bramble.png"
     },
@@ -4316,6 +4603,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1271",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Dumaro.png"
     },
@@ -4331,6 +4619,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wood_goblin.png"
     },
@@ -4346,6 +4635,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1271",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Dumaro.png"
     },
@@ -4361,6 +4651,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_matsum.png"
     },
@@ -4376,6 +4667,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1221",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Ammon.png"
     },
@@ -4391,6 +4683,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_3840",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_TerraNymph.png"
     },
@@ -4406,6 +4699,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_jellyfish.png"
     },
@@ -4421,6 +4715,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mushroom_boy.png"
     },
@@ -4436,6 +4731,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_TombLord.png"
     },
@@ -4451,6 +4747,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Confinedion.png"
     },
@@ -4466,6 +4763,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1281",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ticen.png"
     },
@@ -4481,6 +4779,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1281",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_sauga_s.png"
     },
@@ -4496,6 +4795,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1281",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Loftlem.png"
     },
@@ -4511,6 +4811,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1281",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tucen.png"
     },
@@ -4526,6 +4827,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Ravinepede.png"
     },
@@ -4541,6 +4843,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1291",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_rauzinute.png"
     },
@@ -4556,6 +4859,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Bebraspion.png"
     },
@@ -4571,6 +4875,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1180",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupaluka.png"
     },
@@ -4586,6 +4891,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Gorgon.png"
     },
@@ -4601,6 +4907,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1291",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hogma_archer.png"
     },
@@ -4616,6 +4923,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mushroom_boy_red.png"
     },
@@ -4631,6 +4939,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushroom_ent.png"
     },
@@ -4646,6 +4955,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_shtayim.png"
     },
@@ -4661,6 +4971,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1180",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ridimed_purple.png"
     },
@@ -4676,6 +4987,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Rajatoad.png"
     },
@@ -4691,6 +5003,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1301",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Hogma_combat.png"
     },
@@ -4706,6 +5019,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Gazing_Golem.png"
     },
@@ -4721,6 +5035,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wood_goblin.png"
     },
@@ -4736,6 +5051,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1301",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hogma_warrior.png"
     },
@@ -4751,6 +5067,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider_purple.png"
     },
@@ -4766,6 +5083,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_red2.png"
     },
@@ -4781,6 +5099,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_rafflesia_purple.png"
     },
@@ -4796,6 +5115,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1301",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_woodfung.png"
     },
@@ -4811,6 +5131,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_violet.png"
     },
@@ -4826,6 +5147,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_auburn_pokubu_blue.png"
     },
@@ -4841,6 +5163,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/raffly.png"
     },
@@ -4856,6 +5179,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1311",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hogma_sorcerer.png"
     },
@@ -4871,6 +5195,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_colimen.png"
     },
@@ -4886,6 +5211,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_yonazolem.png"
     },
@@ -4901,6 +5227,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_werewolf.png"
     },
@@ -4916,6 +5243,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_colimen.png"
     },
@@ -4931,6 +5259,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Goblin_Warrior_blue.png"
     },
@@ -4946,6 +5275,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ellom_green.png"
     },
@@ -4961,6 +5291,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1311",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Hogma_guard.png"
     },
@@ -4976,6 +5307,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_cactusvel.png"
     },
@@ -4991,6 +5323,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_RavineLerva.png"
     },
@@ -5006,6 +5339,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1321",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tontulia.png"
     },
@@ -5021,6 +5355,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1321",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Warleader_Hogma.png"
     },
@@ -5036,6 +5371,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_whip_vine.png"
     },
@@ -5051,6 +5387,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/M_boss_BiteRegina.png"
     },
@@ -5066,6 +5403,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Achat.png"
     },
@@ -5081,6 +5419,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_varv.png"
     },
@@ -5096,6 +5435,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_scorpion.png"
     },
@@ -5111,6 +5451,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Karas.png"
     },
@@ -5126,6 +5467,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/M_boss_Chapparition.png"
     },
@@ -5141,6 +5483,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Shredded.png"
     },
@@ -5156,6 +5499,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_moving_trap.png"
     },
@@ -5171,6 +5515,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1176",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Haming.png"
     },
@@ -5186,6 +5531,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Confinedion.png"
     },
@@ -5201,6 +5547,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Deadbornscab.png"
     },
@@ -5216,6 +5563,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_auburn_pokubu.png"
     },
@@ -5231,6 +5579,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Beetle.png"
     },
@@ -5246,6 +5595,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Vesper.png"
     },
@@ -5261,6 +5611,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Hallowventor.png"
     },
@@ -5276,6 +5627,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -5291,6 +5643,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1176",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/popolion2.png"
     },
@@ -5306,6 +5659,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wolf_statue.png"
     },
@@ -5321,6 +5675,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tombsinker.png"
     },
@@ -5336,6 +5691,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Manticen.png"
     },
@@ -5351,6 +5707,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Echad.png"
     },
@@ -5366,6 +5723,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_3750",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_operor.png"
     },
@@ -5381,6 +5739,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -5396,6 +5755,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_shtayim.png"
     },
@@ -5411,6 +5771,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wolf_statue.png"
     },
@@ -5426,6 +5787,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_dog_of_king.png"
     },
@@ -5441,6 +5803,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_clymen2.png"
     },
@@ -5456,6 +5819,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_onion.png"
     },
@@ -5471,6 +5835,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_schlesien_guard.png"
     },
@@ -5486,6 +5851,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_kirmeleech.png"
     },
@@ -5501,6 +5867,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Schlesien_Darkmage_dip.png"
     },
@@ -5516,6 +5883,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Schlesien_Claw_map.png"
     },
@@ -5531,6 +5899,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Schlesien_Heavycavarly.png"
     },
@@ -5546,6 +5915,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_lecifer.png"
     },
@@ -5561,6 +5931,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1421",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_TreeAmbulo.png"
     },
@@ -5576,6 +5947,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1331",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Kerberos.png"
     },
@@ -5591,6 +5963,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_MagBurk.png"
     },
@@ -5606,6 +5979,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1421",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tama.png"
     },
@@ -5621,6 +5995,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1421",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_stub_tree.png"
     },
@@ -5636,6 +6011,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_InfroBurk.png"
     },
@@ -5651,6 +6027,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lizardman.png"
     },
@@ -5666,6 +6043,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1431",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_long_arm.png"
     },
@@ -5681,6 +6059,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_necrovanter.png"
     },
@@ -5696,6 +6075,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_stub_tree.png"
     },
@@ -5711,6 +6091,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_MagBurk.png"
     },
@@ -5726,6 +6107,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Minotaurs.png"
     },
@@ -5741,6 +6123,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_chaser.png"
     },
@@ -5756,6 +6139,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1441",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Zolem.png"
     },
@@ -5771,6 +6155,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_reaverpede.png"
     },
@@ -5786,6 +6171,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_InfroBurk.png"
     },
@@ -5801,6 +6187,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hook.png"
     },
@@ -5816,6 +6203,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer_red.png"
     },
@@ -5831,6 +6219,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1441",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hook.png"
     },
@@ -5846,6 +6235,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage_fire.png"
     },
@@ -5861,6 +6251,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tombstone_Golem.png"
     },
@@ -5876,6 +6267,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1441",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_flying_flog.png"
     },
@@ -5891,6 +6283,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1441",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tombstone_Golem.png"
     },
@@ -5906,6 +6299,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_raider.png"
     },
@@ -5921,6 +6315,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ellom_blue.png"
     },
@@ -5936,6 +6331,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/M_boss_woodspirit_green.png"
     },
@@ -5951,6 +6347,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_fighter.png"
     },
@@ -5966,6 +6363,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_meduoliai.png"
     },
@@ -5981,6 +6379,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_zombiegirl_blue.png"
     },
@@ -5996,6 +6395,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1451",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Hallowventor.png"
     },
@@ -6011,6 +6411,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage_ice.png"
     },
@@ -6026,6 +6427,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bushspider.png"
     },
@@ -6041,6 +6443,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/pappus_kepa_yellow.png"
     },
@@ -6056,6 +6459,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage_fire.png"
     },
@@ -6071,6 +6475,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_pawnd.png"
     },
@@ -6086,6 +6491,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rodelin.png"
     },
@@ -6101,6 +6507,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pawndel.png"
     },
@@ -6116,6 +6523,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1081",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_03.png"
     },
@@ -6131,6 +6539,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1451",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_cockatries.png"
     },
@@ -6146,6 +6555,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Throneweaver.png"
     },
@@ -6161,6 +6571,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_chaser.png"
     },
@@ -6176,6 +6587,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Devilglove.png"
     },
@@ -6191,6 +6603,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Ellomago.png"
     },
@@ -6206,6 +6619,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_chaser.png"
     },
@@ -6221,6 +6635,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_ridimed.png"
     },
@@ -6236,6 +6651,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1451",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_big_cockatries.png"
     },
@@ -6251,6 +6667,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Fallen_Statue.png"
     },
@@ -6266,6 +6683,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_fighter.png"
     },
@@ -6281,6 +6699,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_bubbe_mage_ice.png"
     },
@@ -6296,6 +6715,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/FD_boss_Kubas.png"
     },
@@ -6311,6 +6731,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_sakmoli.png"
     },
@@ -6326,6 +6747,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1082",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_jellyfish_red.png"
     },
@@ -6341,6 +6763,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mushwort.png"
     },
@@ -6356,6 +6779,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1141",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Bume_Goblin_spear.png"
     },
@@ -6371,6 +6795,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_spirit_green.png"
     },
@@ -6386,6 +6811,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1141",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Bume_Goblin_archer.png"
     },
@@ -6401,6 +6827,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ifrit.png"
     },
@@ -6416,6 +6843,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_fire_dragon.png"
     },
@@ -6431,6 +6859,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1141",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_auburn_pokubu_green.png"
     },
@@ -6446,6 +6875,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_fire_dragon.png"
     },
@@ -6461,6 +6891,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Yekub.png"
     },
@@ -6476,6 +6907,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_werewolf.png"
     },
@@ -6491,6 +6923,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Flight_Hope.png"
     },
@@ -6506,6 +6939,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mushwort.png"
     },
@@ -6521,6 +6955,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1151",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_01_blue.png"
     },
@@ -6536,6 +6971,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Armory.png"
     },
@@ -6551,6 +6987,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_werewolf.png"
     },
@@ -6566,6 +7003,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1151",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_honey_bee.png"
     },
@@ -6581,6 +7019,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_blindlem.png"
     },
@@ -6596,6 +7035,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_colistump.png"
     },
@@ -6611,6 +7051,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Minotaurs.png"
     },
@@ -6626,6 +7067,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -6641,6 +7083,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1151",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushroom_ent_blue.png"
     },
@@ -6656,6 +7099,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_fire_dragon_green.png"
     },
@@ -6671,6 +7115,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Sequoia_fire.png"
     },
@@ -6686,6 +7131,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Ellogua.png"
     },
@@ -6701,6 +7147,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tower_of_fire_puppet.png"
     },
@@ -6716,6 +7163,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_hook_red.png"
     },
@@ -6731,6 +7179,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lapasape.png"
     },
@@ -6746,6 +7195,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1151",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_03_red.png"
     },
@@ -6761,6 +7211,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_yonazolem.png"
     },
@@ -6776,6 +7227,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_slime_elite_fire.png"
     },
@@ -6791,6 +7243,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_belegg.png"
     },
@@ -6806,6 +7259,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Mineloader.png"
     },
@@ -6821,6 +7275,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Arma.png"
     },
@@ -6836,6 +7291,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1231",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Meleech.png"
     },
@@ -6851,6 +7307,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_BiteRegina.png"
     },
@@ -6866,6 +7323,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_InfroRocktor_red.png"
     },
@@ -6881,6 +7339,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_redwood.png"
     },
@@ -6896,6 +7355,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1231",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_RavineLerva.png"
     },
@@ -6911,6 +7371,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Carnivore.png"
     },
@@ -6926,6 +7387,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Drapeliun.png"
     },
@@ -6941,6 +7403,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_reaverpede.png"
     },
@@ -6956,6 +7419,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_spirit.png"
     },
@@ -6971,6 +7435,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1231",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_TreeGool.png"
     },
@@ -6986,6 +7451,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1231",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wood_goblin.png"
     },
@@ -7001,6 +7467,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ironbaum.png"
     },
@@ -7016,6 +7483,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -7031,6 +7499,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Rajapearl.png"
     },
@@ -7046,6 +7515,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/wood_goblin_red.png"
     },
@@ -7061,6 +7531,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Grinender.png"
     },
@@ -7076,6 +7547,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1511",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Kepari.png"
     },
@@ -7091,6 +7563,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_flask.png"
     },
@@ -7106,6 +7579,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Cronewt.png"
     },
@@ -7121,6 +7595,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_yonazolem.png"
     },
@@ -7136,6 +7611,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_saltistter.png"
     },
@@ -7151,6 +7627,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_InfroHoglan.png"
     },
@@ -7166,6 +7643,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_mushwort.png"
     },
@@ -7181,6 +7659,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_new_desmodus_black.png"
     },
@@ -7196,6 +7675,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_cactusvel.png"
     },
@@ -7211,6 +7691,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_raider.png"
     },
@@ -7226,6 +7707,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_wizards_marmotte.png"
     },
@@ -7241,6 +7723,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_duckey.png"
     },
@@ -7256,6 +7739,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_minivern.png"
     },
@@ -7271,6 +7755,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_minivern.png"
     },
@@ -7286,6 +7771,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_helgasercle.png"
     },
@@ -7301,6 +7787,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1241",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Infroholder.png"
     },
@@ -7316,6 +7803,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tower_of_fire_puppet_black.png"
     },
@@ -7331,6 +7819,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1551",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_kodomor.png"
     },
@@ -7346,6 +7835,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Dimmer.png"
     },
@@ -7361,6 +7851,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Merge.png"
     },
@@ -7376,6 +7867,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1461",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_fire_dragon_purple.png"
     },
@@ -7391,6 +7883,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_sakmoli.png"
     },
@@ -7406,6 +7899,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Throneweaver.png"
     },
@@ -7421,6 +7915,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Throneweaver.png"
     },
@@ -7436,6 +7931,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1561",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Prisonfighter.png"
     },
@@ -7451,6 +7947,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_ironbaum.png"
     },
@@ -7466,6 +7963,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Sparnashorn.png"
     },
@@ -7481,6 +7979,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1561",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_kowak.png"
     },
@@ -7496,6 +7995,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/ID_boss_mushwort.png"
     },
@@ -7511,6 +8011,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Velorchard.png"
     },
@@ -7526,6 +8027,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_3840",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_TerraNymph.png"
     },
@@ -7541,6 +8043,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/FD_boss_necrovanter.png"
     },
@@ -7556,6 +8059,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_03_blue.png"
     },
@@ -7571,6 +8075,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Velwriggler.png"
     },
@@ -7586,6 +8091,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_raider.png"
     },
@@ -7601,6 +8107,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Cronewt.png"
     },
@@ -7616,6 +8123,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Stoulet.png"
     },
@@ -7631,6 +8139,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_InfroHoglan.png"
     },
@@ -7646,6 +8155,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_infro_Blud.png"
     },
@@ -7661,6 +8171,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_RingCrawler.png"
     },
@@ -7676,6 +8187,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pawnd_purple.png"
     },
@@ -7691,6 +8203,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pawndel_blue.png"
     },
@@ -7706,6 +8219,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moglan.png"
     },
@@ -7721,6 +8235,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rondo.png"
     },
@@ -7736,6 +8251,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rondo.png"
     },
@@ -7751,6 +8267,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2300",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lizardman.png"
     },
@@ -7766,6 +8283,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_spear_red.png"
     },
@@ -7781,6 +8299,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_goblin_archer_red.png"
     },
@@ -7796,6 +8315,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2300",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Tama.png"
     },
@@ -7811,6 +8331,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Woodman.png"
     },
@@ -7826,6 +8347,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Woodman.png"
     },
@@ -7841,6 +8363,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Egnome.png"
     },
@@ -7856,6 +8379,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Gazing_Golem.png"
     },
@@ -7871,6 +8395,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Egnome.png"
     },
@@ -7886,6 +8411,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2301",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_stub_tree.png"
     },
@@ -7901,6 +8427,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2301",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_cyst.png"
     },
@@ -7916,6 +8443,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Hound.png"
     },
@@ -7931,6 +8459,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moya.png"
     },
@@ -7946,6 +8475,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_NetherBovine.png"
     },
@@ -7961,6 +8491,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1175",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaulamb.png"
     },
@@ -7976,6 +8507,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_sparnas.png"
     },
@@ -7991,6 +8523,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_BiteRegina.png"
     },
@@ -8006,6 +8539,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Stoulet.png"
     },
@@ -8021,6 +8555,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1175",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaulogre.png"
     },
@@ -8036,6 +8571,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1175",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Pendinmire.png"
     },
@@ -8051,6 +8587,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Firent.png"
     },
@@ -8066,6 +8603,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Egnome.png"
     },
@@ -8081,6 +8619,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1174",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Spion.png"
     },
@@ -8096,6 +8635,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Leafnut.png"
     },
@@ -8111,6 +8651,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Strongholder.png"
     },
@@ -8126,6 +8667,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_meduoliai.png"
     },
@@ -8141,6 +8683,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rudas_loxodon.png"
     },
@@ -8156,6 +8699,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_long_arm.png"
     },
@@ -8171,6 +8715,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Mushroom_ent_green.png"
     },
@@ -8186,6 +8731,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1174",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupaluka.png"
     },
@@ -8201,6 +8747,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_new_desmodus.png"
     },
@@ -8216,6 +8763,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/FD_boss_Glackuman.png"
     },
@@ -8231,6 +8779,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1174",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaulago.png"
     },
@@ -8246,6 +8795,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_banshee_purple.png"
     },
@@ -8261,6 +8811,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mushroom_boy_green.png"
     },
@@ -8276,6 +8827,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Harpeia.png"
     },
@@ -8291,6 +8843,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1173",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_02_red.png"
     },
@@ -8306,6 +8859,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1173",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_mushroom_ent_black.png"
     },
@@ -8321,6 +8875,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1173",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Siaumire.png"
     },
@@ -8336,6 +8891,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1172",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_infro_Blud.png"
     },
@@ -8351,6 +8907,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Manticen.png"
     },
@@ -8366,6 +8923,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1172",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Shardstatue.png"
     },
@@ -8381,6 +8939,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_01.png"
     },
@@ -8396,6 +8955,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_katynforest_zombie_01.png"
     },
@@ -8411,6 +8971,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2511",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_tombstone_turtle.png"
     },
@@ -8426,6 +8987,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/Minos.png"
     },
@@ -8441,6 +9003,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_auburn_pokubu_blue.png"
     },
@@ -8456,6 +9019,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Cire.png"
     },
@@ -8471,6 +9035,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lemur.png"
     },
@@ -8486,6 +9051,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -8501,6 +9067,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Drape.png"
     },
@@ -8516,6 +9083,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lemuria.png"
     },
@@ -8531,6 +9099,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_raider.png"
     },
@@ -8546,6 +9115,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Bebraspion.png"
     },
@@ -8561,6 +9131,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Devilglove.png"
     },
@@ -8576,6 +9147,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_2521",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Loftlem.png"
     },
@@ -8591,6 +9163,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_siauliai_beetle.png"
     },
@@ -8606,6 +9179,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1641",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_jukopus_gray.png"
     },
@@ -8621,6 +9195,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1641",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rambear.png"
     },
@@ -8636,6 +9211,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Sparnashorn.png"
     },
@@ -8651,6 +9227,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_kowak.png"
     },
@@ -8666,6 +9243,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_saltistter.png"
     },
@@ -8681,6 +9259,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1651",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Bavon.png"
     },
@@ -8696,6 +9275,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1651",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moya.png"
     },
@@ -8711,6 +9291,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_chupaluka.png"
     },
@@ -8726,6 +9307,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_slime_dark.png"
     },
@@ -8741,6 +9323,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_lantern_mushroom.png"
     },
@@ -8756,6 +9339,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_spector_F_purple.png"
     },
@@ -8771,6 +9355,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1661",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moyabu.png"
     },
@@ -8786,6 +9371,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1661",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Denden.png"
     },
@@ -8801,6 +9387,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Glass_mole.png"
     },
@@ -8816,6 +9403,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_lepus.png"
     },
@@ -8831,6 +9419,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1681",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lemur.png"
     },
@@ -8846,6 +9435,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1411",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moyabu.png"
     },
@@ -8861,6 +9451,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1681",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Genmagnus.png"
     },
@@ -8876,6 +9467,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1681",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_stonefroster.png"
     },
@@ -8891,6 +9483,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1691",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Rubabos.png"
     },
@@ -8906,6 +9499,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1691",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Repusbunny.png"
     },
@@ -8921,6 +9515,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Stout.png"
     },
@@ -8936,6 +9531,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1691",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Lemuria.png"
     },
@@ -8951,6 +9547,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1691",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Sparnanman.png"
     },
@@ -8966,6 +9563,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_Strongholder.png"
     },
@@ -8981,6 +9579,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_3470",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_zombieboss.png"
     },
@@ -8996,6 +9595,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/boss_necrovanter.png"
     },
@@ -9011,6 +9611,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "",
+        floor: [1],
         notes: "",
         pic: "content/img/icons/monsters/mon_Moya.png"
     }

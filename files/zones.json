@@ -5,6 +5,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 1,
+        floors: 1,
         map: "map/westsiliulai.jpg"
     },
     map_1001: {
@@ -13,6 +14,7 @@ zones = {
         area: "Klaipeda Area",
         type: "City",
         level: 0,
+        floors: 1,
         map: "map/klaipeda.jpg"
     },
     map_1032: {
@@ -21,6 +23,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 6,
+        floors: 1,
         map: "map/eastsiliulai.jpg"
     },
     map_1041: {
@@ -29,6 +32,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 12,
+        floors: 1,
         map: "map/minersvillage.jpg"
     },
     map_2081: {
@@ -37,6 +41,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 26,
+        floors: 1,
         map: "map/srautascanyon.jpg"
     },
     map_2051: {
@@ -45,6 +50,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 336,
+        floors: 1,
         map: ""
     },
     map_2061: {
@@ -53,6 +59,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 340,
+        floors: 1,
         map: ""
     },
     map_2071: {
@@ -61,6 +68,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 344,
+        floors: 1,
         map: ""
     },
     map_1180: {
@@ -69,6 +77,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 69,
+        floors: 1,
         map: "map/gitissettlementarea.jpg"
     },
     map_1051: {
@@ -77,6 +86,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Dungeon",
         level: 16,
+        floors: 5,
         map: "map/crystalmine.jpg"
     },
     map_2082: {
@@ -85,6 +95,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 29,
+        floors: 1,
         map: "map/geleplateau.jpg"
     },
     map_2451: {
@@ -93,6 +104,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 350,
+        floors: 1,
         map: ""
     },
     map_2471: {
@@ -101,6 +113,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 359,
+        floors: 1,
         map: ""
     },
     map_2461: {
@@ -109,6 +122,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 356,
+        floors: 1,
         map: ""
     },
     map_3720: {
@@ -117,6 +131,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 364,
+        floors: 1,
         map: ""
     },
     map_3750: {
@@ -125,6 +140,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 86,
+        floors: 1,
         map: "map/myrkitifarm.jpg"
     },
     map_1176: {
@@ -133,6 +149,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 84,
+        floors: 1,
         map: "map/baronallerno.jpg"
     },
     map_2088: {
@@ -141,6 +158,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 46,
+        floors: 1,
         map: "map/vejaravine.jpg"
     },
     map_1081: {
@@ -149,6 +167,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 106,
+        floors: 1,
         map: "map/katlynforest.jpg"
     },
     map_2083: {
@@ -157,6 +176,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 32,
+        floors: 1,
         map: "map/nefritascliff.jpg"
     },
     map_2421: {
@@ -165,6 +185,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 343,
+        floors: 1,
         map: ""
     },
     map_2431: {
@@ -173,6 +194,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 346,
+        floors: 1,
         map: ""
     },
     map_2441: {
@@ -181,6 +203,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 353,
+        floors: 1,
         map: ""
     },
     map_3690: {
@@ -189,6 +212,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 355,
+        floors: 1,
         map: ""
     },
     map_3710: {
@@ -197,6 +221,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 361,
+        floors: 1,
         map: ""
     },
     map_3740: {
@@ -205,6 +230,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 89,
+        floors: 1,
         map: "map/aqueductarea.jpg"
     },
     map_3730: {
@@ -213,6 +239,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 92,
+        floors: 1,
         map: "map/tenantsfarm.jpg"
     },
     map_2089: {
@@ -221,6 +248,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 49,
+        floors: 1,
         map: "map/vietagorge.jpg"
     },
     map_1082: {
@@ -229,6 +257,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 109,
+        floors: 1,
         map: "map/owlburialground.jpg"
     },
     map_2084: {
@@ -237,6 +266,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 35,
+        floors: 1,
         map: "map/tenetgarden.jpg"
     },
     map_2085: {
@@ -245,6 +275,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Dungeon",
         level: 40,
+        floors: 3,
         map: "map/tenetchapl.jpg"
     },
     map_3670: {
@@ -253,6 +284,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 363,
+        floors: 1,
         map: ""
     },
     map_3680: {
@@ -261,6 +293,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 367,
+        floors: 1,
         map: ""
     },
     map_3700: {
@@ -269,6 +302,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 358,
+        floors: 1,
         map: ""
     },
     map_3660: {
@@ -277,6 +311,7 @@ zones = {
         area: "Kiren Province",
         type: "Dungeon",
         level: 367,
+        floors: 1,
         map: ""
     },
     map_2300: {
@@ -285,6 +320,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 149,
+        floors: 1,
         map: "map/greenmanor.jpg"
     },
     map_3610: {
@@ -293,6 +329,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Dungeon",
         level: 151,
+        floors: 1,
         map: ""
     },
     map_2090: {
@@ -301,6 +338,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 52,
+        floors: 1,
         map: "map/cobalt.jpg"
     },
     map_1141: {
@@ -309,6 +347,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 112,
+        floors: 1,
         map: "map/poslinkisfrst.jpg"
     },
     map_1151: {
@@ -317,6 +356,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 114,
+        floors: 1,
         map: ""
     },
     map_3560: {
@@ -325,6 +365,7 @@ zones = {
         area: "Kiren Province",
         type: "Dungeon",
         level: 371,
+        floors: 1,
         map: ""
     },
     map_3550: {
@@ -333,6 +374,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 378,
+        floors: 1,
         map: ""
     },
     map_2301: {
@@ -341,6 +383,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 152,
+        floors: 1,
         map: ""
     },
     map_1175: {
@@ -349,6 +392,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 160,
+        floors: 1,
         map: "map/dinabeefarm.jpg"
     },
     map_2091: {
@@ -357,6 +401,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 55,
+        floors: 1,
         map: "map/septyniglen.jpg"
     },
     map_1201: {
@@ -365,6 +410,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 58,
+        floors: 1,
         map: "map/gateroute.jpg"
     },
     map_1231: {
@@ -373,6 +419,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 120,
+        floors: 1,
         map: "map/dvasiapeak.jpg"
     },
     map_1241: {
@@ -381,6 +428,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 123,
+        floors: 1,
         map: "map/sunsetflagforst.jpg"
     },
     map_1251: {
@@ -389,6 +437,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 58,
+        floors: 1,
         map: "map/gatewayofgreatking.jpg"
     },
     map_1261: {
@@ -397,6 +446,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 61,
+        floors: 1,
         map: "map/ramstisridge.jpg"
     },
     map_3540: {
@@ -405,6 +455,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 381,
+        floors: 1,
         map: ""
     },
     map_3530: {
@@ -413,6 +464,7 @@ zones = {
         area: "Kiren Province",
         type: "Field",
         level: 385,
+        floors: 1,
         map: ""
     },
     map_2302: {
@@ -421,6 +473,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 155,
+        floors: 1,
         map: "map/shatonresevior.jpg"
     },
     map_1174: {
@@ -429,6 +482,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 163,
+        floors: 1,
         map: ""
     },
     map_1173: {
@@ -437,6 +491,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 166,
+        floors: 1,
         map: "map/uskisarable.jpg"
     },
     map_1172: {
@@ -445,6 +500,7 @@ zones = {
         area: "Klaipeda Area",
         type: "Field",
         level: 169,
+        floors: 1,
         map: "map/springlightwoods.jpg"
     },
     map_1211: {
@@ -453,6 +509,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 61,
+        floors: 1,
         map: "map/sirdgelafrst.jpg"
     },
     map_1221: {
@@ -461,6 +518,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 64,
+        floors: 1,
         map: "map/kvailasfrst.jpg"
     },
     map_1271: {
@@ -469,6 +527,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 64,
+        floors: 1,
         map: "map/overlongvalley.jpg"
     },
     map_2402: {
@@ -477,6 +536,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 0,
+        floors: 1,
         map: ""
     },
     map_3470: {
@@ -485,6 +545,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 188,
+        floors: 1,
         map: "map/moksulchamber.jpg"
     },
     map_2521: {
@@ -493,6 +554,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 179,
+        floors: 1,
         map: "map/raukimeresevior.jpg"
     },
     map_2511: {
@@ -501,6 +563,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 173,
+        floors: 1,
         map: "map/gladeslope.jpg"
     },
     map_2501: {
@@ -509,6 +572,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 176,
+        floors: 1,
         map: "map/biltisforest.jpg"
     },
     map_2401: {
@@ -517,6 +581,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 0,
+        floors: 1,
         map: "map/passage%20of%20the%20recluse.jpg"
     },
     map_1281: {
@@ -525,6 +590,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 67,
+        floors: 1,
         map: "map/arkmen.jpg"
     },
     map_3450: {
@@ -533,6 +599,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Dungeon",
         level: 229,
+        floors: 1,
         map: ""
     },
     map_1411: {
@@ -541,6 +608,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 191,
+        floors: 1,
         map: "map/undergrdgrave.jpg"
     },
     map_3460: {
@@ -549,6 +617,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 194,
+        floors: 1,
         map: ""
     },
     map_1391: {
@@ -557,6 +626,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 197,
+        floors: 1,
         map: ""
     },
     map_2531: {
@@ -565,6 +635,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 183,
+        floors: 1,
         map: ""
     },
     map_1291: {
@@ -573,6 +644,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 69,
+        floors: 1,
         map: "map/tiltasvalley.jpg"
     },
     map_2541: {
@@ -581,6 +653,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 227,
+        floors: 1,
         map: ""
     },
     map_3440: {
@@ -589,6 +662,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Dungeon",
         level: 226,
+        floors: 1,
         map: ""
     },
     map_2581: {
@@ -597,6 +671,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 176,
+        floors: 1,
         map: "map/istoraruins.jpg"
     },
     map_2571: {
@@ -605,6 +680,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 172,
+        floors: 1,
         map: "map/namutemple.jpg"
     },
     map_2561: {
@@ -613,6 +689,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 168,
+        floors: 1,
         map: "map/nuoridenfalls.jpg"
     },
     map_1421: {
@@ -621,6 +698,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 96,
+        floors: 1,
         map: "map/stelerd.jpg"
     },
     map_1321: {
@@ -629,6 +707,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 78,
+        floors: 1,
         map: "map/zacherialcrossrd.jpg"
     },
     map_1331: {
@@ -637,6 +716,7 @@ zones = {
         area: "Fedimian Area",
         type: "Dungeon",
         level: 81,
+        floors: 5,
         map: "map/royalmaus.jpg"
     },
     map_1301: {
@@ -645,6 +725,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 73,
+        floors: 1,
         map: "map/rukasplateau.jpg"
     },
     map_2551: {
@@ -653,6 +734,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 230,
+        floors: 1,
         map: ""
     },
     map_3420: {
@@ -661,6 +743,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 223,
+        floors: 1,
         map: ""
     },
     map_3430: {
@@ -669,6 +752,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 220,
+        floors: 1,
         map: ""
     },
     map_1431: {
@@ -677,6 +761,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 99,
+        floors: 1,
         map: "map/goddessgarden.jpg"
     },
     map_1441: {
@@ -685,6 +770,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 103,
+        floors: 1,
         map: "map/escaniuvillage.jpg"
     },
     map_1311: {
@@ -693,6 +779,7 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 76,
+        floors: 1,
         map: "map/plateurex.jpg"
     },
     map_2411: {
@@ -701,6 +788,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Dungeon",
         level: 0,
+        floors: 1,
         map: ""
     },
     map_1531: {
@@ -709,6 +797,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 234,
+        floors: 1,
         map: ""
     },
     map_3350: {
@@ -717,6 +806,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 216,
+        floors: 1,
         map: ""
     },
     map_1451: {
@@ -725,14 +815,16 @@ zones = {
         area: "Fedimian Area",
         type: "Field",
         level: 107,
+        floors: 1,
         map: "map/fedimiansubs.jpg"
     },
     map_1461: {
         id: "map_1461",
-        name: "Mage Tower 1st Floor",
+        name: "Mage Tower",
         area: "Fedimian Area",
         type: "Dungeon",
         level: 113,
+        floors: 5,
         map: "map/magetower.jpg"
     },
     map_1541: {
@@ -741,6 +833,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 237,
+        floors: 1,
         map: ""
     },
     map_3390: {
@@ -749,6 +842,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 235,
+        floors: 1,
         map: ""
     },
     map_3400: {
@@ -757,6 +851,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 238,
+        floors: 1,
         map: ""
     },
     map_3360: {
@@ -765,6 +860,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 213,
+        floors: 1,
         map: ""
     },
     map_981: {
@@ -773,6 +869,7 @@ zones = {
         area: "Fedimian Area",
         type: "City",
         level: 0,
+        floors: 1,
         map: "map/fedimian.jpg"
     },
     map_1511: {
@@ -781,6 +878,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 121,
+        floors: 1,
         map: "map/starvingpath.jpg"
     },
     map_1521: {
@@ -789,6 +887,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 124,
+        floors: 1,
         map: "map/pilgrimpath.jpg"
     },
     map_1551: {
@@ -797,6 +896,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 127,
+        floors: 1,
         map: "map/altary.jpg"
     },
     map_1561: {
@@ -805,6 +905,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 130,
+        floors: 1,
         map: "map/forestprayer.jpg"
     },
     map_1581: {
@@ -813,6 +914,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Dungeon",
         level: 137,
+        floors: 1,
         map: ""
     },
     map_3410: {
@@ -821,6 +923,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 242,
+        floors: 1,
         map: ""
     },
     map_3370: {
@@ -829,6 +932,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 210,
+        floors: 1,
         map: ""
     },
     map_2491: {
@@ -837,6 +941,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 251,
+        floors: 1,
         map: ""
     },
     map_2481: {
@@ -845,6 +950,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 247,
+        floors: 1,
         map: ""
     },
     map_1571: {
@@ -853,6 +959,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 133,
+        floors: 1,
         map: "map/apsimesticrss.jpg"
     },
     map_1542: {
@@ -861,6 +968,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 197,
+        floors: 1,
         map: ""
     },
     map_1543: {
@@ -869,6 +977,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 200,
+        floors: 1,
         map: ""
     },
     map_3380: {
@@ -877,6 +986,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 207,
+        floors: 1,
         map: ""
     },
     map_2412: {
@@ -885,6 +995,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 0,
+        floors: 1,
         map: ""
     },
     map_1651: {
@@ -893,6 +1004,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 187,
+        floors: 1,
         map: "map/roxanamarket.jpg"
     },
     map_1641: {
@@ -901,6 +1013,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 184,
+        floors: 1,
         map: "map/vertisquare.jpg"
     },
     map_1681: {
@@ -909,6 +1022,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 193,
+        floors: 1,
         map: "map/downtown.jpg"
     },
     map_1631: {
@@ -917,6 +1031,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 247,
+        floors: 1,
         map: ""
     },
     map_3340: {
@@ -925,6 +1040,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 244,
+        floors: 1,
         map: ""
     },
     map_1544: {
@@ -933,6 +1049,7 @@ zones = {
         area: "Romuva Sanctuary",
         type: "Field",
         level: 203,
+        floors: 1,
         map: ""
     },
     map_3290: {
@@ -941,6 +1058,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Dungeon",
         level: 281,
+        floors: 1,
         map: ""
     },
     map_2141: {
@@ -949,6 +1067,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 279,
+        floors: 1,
         map: ""
     },
     map_1661: {
@@ -957,6 +1076,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 190,
+        floors: 1,
         map: "map/ruklysst.jpg"
     },
     map_1751: {
@@ -965,6 +1085,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 260,
+        floors: 1,
         map: ""
     },
     map_1691: {
@@ -973,6 +1094,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 196,
+        floors: 1,
         map: "map/innerdistrict.jpg"
     },
     map_1701: {
@@ -981,6 +1103,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 200,
+        floors: 1,
         map: ""
     },
     map_3310: {
@@ -989,6 +1112,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 251,
+        floors: 1,
         map: ""
     },
     map_3320: {
@@ -997,6 +1121,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 255,
+        floors: 1,
         map: ""
     },
     map_3240: {
@@ -1005,6 +1130,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 309,
+        floors: 1,
         map: ""
     },
     map_3230: {
@@ -1013,6 +1139,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 306,
+        floors: 1,
         map: ""
     },
     map_3250: {
@@ -1021,6 +1148,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 303,
+        floors: 1,
         map: ""
     },
     map_3280: {
@@ -1029,6 +1157,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 285,
+        floors: 1,
         map: ""
     },
     map_1761: {
@@ -1037,6 +1166,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 264,
+        floors: 1,
         map: ""
     },
     map_1771: {
@@ -1045,6 +1175,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 268,
+        floors: 1,
         map: ""
     },
     map_3760: {
@@ -1053,6 +1184,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 279,
+        floors: 1,
         map: ""
     },
     map_3330: {
@@ -1061,6 +1193,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 259,
+        floors: 1,
         map: ""
     },
     map_3160: {
@@ -1069,6 +1202,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Dungeon",
         level: 331,
+        floors: 1,
         map: ""
     },
     map_3300: {
@@ -1077,6 +1211,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 316,
+        floors: 1,
         map: ""
     },
     map_2121: {
@@ -1085,6 +1220,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 312,
+        floors: 1,
         map: ""
     },
     map_2111: {
@@ -1093,6 +1229,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 308,
+        floors: 1,
         map: ""
     },
     map_3270: {
@@ -1101,6 +1238,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 288,
+        floors: 1,
         map: ""
     },
     map_2131: {
@@ -1109,6 +1247,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 276,
+        floors: 1,
         map: ""
     },
     map_1781: {
@@ -1117,6 +1256,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 272,
+        floors: 1,
         map: ""
     },
     map_1791: {
@@ -1125,6 +1265,7 @@ zones = {
         area: "Kallis Province",
         type: "Field",
         level: 275,
+        floors: 1,
         map: ""
     },
     map_1831: {
@@ -1133,6 +1274,7 @@ zones = {
         area: "Kallis Province",
         type: "Dungeon",
         level: 283,
+        floors: 1,
         map: ""
     },
     map_3150: {
@@ -1141,6 +1283,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Dungeon",
         level: 328,
+        floors: 1,
         map: ""
     },
     map_3140: {
@@ -1149,6 +1292,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 325,
+        floors: 1,
         map: ""
     },
     map_3130: {
@@ -1157,6 +1301,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 322,
+        floors: 1,
         map: ""
     },
     map_2101: {
@@ -1165,6 +1310,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 305,
+        floors: 1,
         map: ""
     },
     map_3260: {
@@ -1173,6 +1319,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 291,
+        floors: 1,
         map: ""
     },
     map_3780: {
@@ -1181,6 +1328,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 395,
+        floors: 1,
         map: ""
     },
     map_1881: {
@@ -1189,6 +1337,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 383,
+        floors: 1,
         map: ""
     },
     map_1891: {
@@ -1197,6 +1346,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 386,
+        floors: 1,
         map: ""
     },
     map_3120: {
@@ -1205,6 +1355,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 318,
+        floors: 1,
         map: ""
     },
     map_3110: {
@@ -1213,6 +1364,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 309,
+        floors: 1,
         map: ""
     },
     map_1191: {
@@ -1221,6 +1373,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 300,
+        floors: 1,
         map: ""
     },
     map_3770: {
@@ -1229,6 +1382,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 399,
+        floors: 1,
         map: ""
     },
     map_1911: {
@@ -1237,6 +1391,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 394,
+        floors: 1,
         map: ""
     },
     map_1901: {
@@ -1245,6 +1400,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 390,
+        floors: 1,
         map: ""
     },
     map_3170: {
@@ -1253,6 +1409,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Dungeon",
         level: 317,
+        floors: 1,
         map: ""
     },
     map_3100: {
@@ -1261,6 +1418,7 @@ zones = {
         area: "Grand Forest Area",
         type: "Field",
         level: 312,
+        floors: 1,
         map: ""
     },
     map_3060: {
@@ -1269,6 +1427,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 448,
+        floors: 1,
         map: ""
     },
     map_3040: {
@@ -1277,6 +1436,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 442,
+        floors: 1,
         map: ""
     },
     map_1981: {
@@ -1285,6 +1445,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 408,
+        floors: 1,
         map: ""
     },
     map_1921: {
@@ -1293,6 +1454,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 398,
+        floors: 1,
         map: ""
     },
     map_3221: {
@@ -1301,6 +1463,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 437,
+        floors: 1,
         map: ""
     },
     map_3223: {
@@ -1309,6 +1472,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 441,
+        floors: 1,
         map: ""
     },
     map_3070: {
@@ -1317,6 +1481,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 451,
+        floors: 1,
         map: ""
     },
     map_3050: {
@@ -1325,6 +1490,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 445,
+        floors: 1,
         map: ""
     },
     map_1982: {
@@ -1333,6 +1499,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 411,
+        floors: 1,
         map: ""
     },
     map_1983: {
@@ -1341,6 +1508,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 414,
+        floors: 1,
         map: ""
     },
     map_1931: {
@@ -1349,6 +1517,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Dungeon",
         level: 403,
+        floors: 1,
         map: ""
     },
     map_3220: {
@@ -1357,6 +1526,7 @@ zones = {
         area: "Starlit Lake Area",
         type: "Field",
         level: 434,
+        floors: 1,
         map: ""
     },
     map_3030: {
@@ -1365,6 +1535,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 432,
+        floors: 1,
         map: ""
     },
     map_3790: {
@@ -1373,6 +1544,7 @@ zones = {
         area: "Royal Territory",
         type: "Field",
         level: 459,
+        floors: 1,
         map: ""
     },
     map_3080: {
@@ -1381,6 +1553,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 454,
+        floors: 1,
         map: ""
     },
     map_3090: {
@@ -1389,6 +1562,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 457,
+        floors: 1,
         map: ""
     },
     map_1984: {
@@ -1397,6 +1571,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 417,
+        floors: 1,
         map: ""
     },
     map_1986: {
@@ -1405,6 +1580,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 420,
+        floors: 1,
         map: ""
     },
     map_1991: {
@@ -1413,6 +1589,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 454,
+        floors: 1,
         map: ""
     },
     map_1006: {
@@ -1421,6 +1598,7 @@ zones = {
         area: "Royal Territory",
         type: "City",
         level: 0,
+        floors: 1,
         map: ""
     },
     map_1985: {
@@ -1429,6 +1607,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 420,
+        floors: 1,
         map: ""
     },
     map_1988: {
@@ -1437,6 +1616,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 424,
+        floors: 1,
         map: ""
     },
     map_3020: {
@@ -1445,6 +1625,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 429,
+        floors: 1,
         map: ""
     },
     map_1995: {
@@ -1453,6 +1634,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 467,
+        floors: 1,
         map: ""
     },
     map_1993: {
@@ -1461,6 +1643,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 463,
+        floors: 1,
         map: ""
     },
     map_1992: {
@@ -1469,6 +1652,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 457,
+        floors: 1,
         map: ""
     },
     map_1987: {
@@ -1477,6 +1661,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 427,
+        floors: 1,
         map: ""
     },
     map_1989: {
@@ -1485,6 +1670,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 431,
+        floors: 1,
         map: ""
     },
     map_1990: {
@@ -1493,6 +1679,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 435,
+        floors: 1,
         map: ""
     },
     map_2000: {
@@ -1501,6 +1688,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Dungeon",
         level: 472,
+        floors: 1,
         map: ""
     },
     map_1994: {
@@ -1509,6 +1697,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 460,
+        floors: 1,
         map: ""
     },
     map_3000: {
@@ -1517,6 +1706,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 467,
+        floors: 1,
         map: ""
     },
     map_3010: {
@@ -1525,6 +1715,7 @@ zones = {
         area: "Kingdom Territory",
         type: "Field",
         level: 470,
+        floors: 1,
         map: ""
     }
 };
