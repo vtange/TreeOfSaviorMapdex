@@ -49,7 +49,7 @@
                 <div class="panel-body" data-ng-switch on="tabz.monsterToggle">
 
                     <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0" ng-switch-when="0">
-                        <table class="db_equip_table" border="1">
+                        <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
         <th>Name</th>
@@ -103,7 +103,7 @@
 </table>
                     </div>
                     <div data-ng-repeat="monster in mond.monstall" ng-switch-when="1">
-                        <table class="db_equip_table" border="1">
+                        <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
         <th>Name</th>
@@ -171,9 +171,9 @@
             </div>
         </section>
 </div>
-    
-<div id="tooltip" style="display: none; left: 843px; top: 1348px;"></div><div id="tooltip2" style="display: none; position: absolute; z-index: 999; word-wrap: break-word;"></div>
 
+<!--tooltip script below-->
+<div id="tooltip" style="display: none; left: 843px; top: 1348px;"></div><div id="tooltip2" style="display: none; position: absolute; z-index: 999; word-wrap: break-word;"></div>
         <script type="text/javascript">
             //window.setInterval(countdown_tick, 1000);
             $(".tooltip_trigger").mouseover(function(event) {
@@ -212,10 +212,7 @@
                 $tooltip.hide();
                 $tooltip.html("");
             });
-            
-            
-            
-            
+
             $(".tooltip_trigger2").mouseover(function(event) {
                 // set the tooltip HTML contents
                 content = "";
@@ -266,27 +263,10 @@
                 $tooltip2.hide();
                 $tooltip2.html("");
             });
-
-        
-
-            
-            $("#top_layer").click(function() {
-                $("#top_layer_content").html("");
-                $("#top_layer").css({display: "none"});
-            });
-            
-            $("#top_layer_content").click(function(event) {
-                event.stopPropagation();
-            });
-            
             var $tooltip = $('#tooltip'), // reusable jQuery obj
                 offset = {x: 30, y: -10}; // tooltip offset from the cursor
-            
-            
             var $tooltip2 = $('#tooltip2');
             var $tooltip2_y_offset = 0;
-            
-            
             function countdown_tick() {
                 var elements = document.getElementsByClassName('countdown');
                 for (i = 0; i < elements.length; i++) {
@@ -296,8 +276,6 @@
                     }
                 }
             }
-            
         </script>
-
     </body>
 </html>
