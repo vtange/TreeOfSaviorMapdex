@@ -12,6 +12,7 @@
     };
     }) //end of controller
   app.controller('tabControl', function() {
+      //tabs
       this.tab = 1;
       this.selectTab = function(setTab){
           this.tab = setTab;
@@ -19,6 +20,7 @@
       this.isSelected = function(checkTab){
           return this.tab === checkTab;
       };
+      //toggle button
       this.monsterToggle = 0;
       this.toggle = function(){
         if(this.monsterToggle == 0){
@@ -27,6 +29,11 @@
         else {
             return this.monsterToggle = 0;
         }
+      };
+      //floor changing
+      this.floor = 1;
+      this.changeFloor = function(newFloor){
+          this.floor = newFloor;
       };
     }) //end of controller
   app.controller('monsterDb', function($controller) {

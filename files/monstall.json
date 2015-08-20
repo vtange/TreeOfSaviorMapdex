@@ -1835,7 +1835,7 @@ monstall = {
         bxp: 10,
         cxp: 10,
         where: "map_1051",
-        floor: [1],
+        floor: [1,2,3],
         notes: "",
         pic: "content/img/icons/monsters/mon_mirtislampa.png"
     },
