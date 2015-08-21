@@ -27,29 +27,29 @@
 
 </div>
 </div>
-<div data-ng-controller="searchFooter as sfoot">
-    <div id="rightside" data-ng-controller="tabControl as tabz">
+<div data-ng-controller="footerControl as footCtrl">
+    <div id="rightside" data-ng-controller="tabControl as tabCtrl">
         <img style="width:95%" data-ng-src="{{mapp.zone.map}}" data-ng-show="mapp.zone.map"/>
         <!--<img src="map/innerdistrict.jpg"/>-->
         <h2>{{mapp.zone.name}}</h2>
         <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(1)}" data-ng-click="tabz.changeFloor(1)" data-ng-if="mapp.zone.floors >= 1">F1</button>
-                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(2)}" data-ng-click="tabz.changeFloor(2)" data-ng-if="mapp.zone.floors >= 2">F2</button>
-                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(3)}" data-ng-click="tabz.changeFloor(3)" data-ng-if="mapp.zone.floors >= 3">F3</button>
-                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(4)}" data-ng-click="tabz.changeFloor(4)" data-ng-if="mapp.zone.floors >= 4">F4</button>
-                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(5)}" data-ng-click="tabz.changeFloor(5)" data-ng-if="mapp.zone.floors >= 5">F5</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabCtrl.currentFloor(1)}" data-ng-click="tabCtrl.changeFloor(1)" data-ng-if="mapp.zone.floors >= 1">F1</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabCtrl.currentFloor(2)}" data-ng-click="tabCtrl.changeFloor(2)" data-ng-if="mapp.zone.floors >= 2">F2</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabCtrl.currentFloor(3)}" data-ng-click="tabCtrl.changeFloor(3)" data-ng-if="mapp.zone.floors >= 3">F3</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabCtrl.currentFloor(4)}" data-ng-click="tabCtrl.changeFloor(4)" data-ng-if="mapp.zone.floors >= 4">F4</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabCtrl.currentFloor(5)}" data-ng-click="tabCtrl.changeFloor(5)" data-ng-if="mapp.zone.floors >= 5">F5</button>
         </div>
         <section>
             <ul class="nav nav-tabs">
-                <li role="presentation" data-ng-class="{ active: tabz.isSelected(1)}"><a href data-ng-click="tabz.selectTab(1)"><h5>Monsters</h5></a></li>
-                <li role="presentation" data-ng-class="{ active: tabz.isSelected(2)}"><a href data-ng-click="tabz.selectTab(2)"><h5>NPCs</h5></a></li>
-                <li role="presentation" data-ng-class="{ active: tabz.isSelected(3)}"><a href data-ng-click="tabz.selectTab(3)"><h5>Sub Areas</h5></a></li>
+                <li role="presentation" data-ng-class="{ active: tabCtrl.isSelected(1)}"><a href data-ng-click="tabCtrl.selectTab(1)"><h5>Monsters</h5></a></li>
+                <li role="presentation" data-ng-class="{ active: tabCtrl.isSelected(2)}"><a href data-ng-click="tabCtrl.selectTab(2)"><h5>NPCs</h5></a></li>
+                <li role="presentation" data-ng-class="{ active: tabCtrl.isSelected(3)}"><a href data-ng-click="tabCtrl.selectTab(3)"><h5>Sub Areas</h5></a></li>
             </ul>
-            <div class="panel panel-default" data-ng-show="tabz.isSelected(1)" data-ng-controller="monsterDb as mond">
-                <div class="panel-body" data-ng-switch on="tabz.bossToggle">
-                    <button class="btn btn-default" data-ng-class="{ active: tabz.toggledOn()}" ng-click="tabz.toggle()">Show Bosses</button>
-                    <button class="btn btn-default" data-ng-class="{ active: sfoot.toggledOn()}" ng-click="sfoot.toggle()">Search All Monsters</button>
-                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0 && monster.kind != 'Boss'" ng-switch-when="0">
+            <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(1)" data-ng-controller="monsterDb as monDb">
+                <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
+                    <button class="btn btn-default" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
+                    <button class="btn btn-default" data-ng-class="{ active: footCtrl.toggledOn()}" data-ng-click="footCtrl.toggle()">Search All Monsters</button>
+                    <div data-ng-repeat="monster in monDb.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0 && monster.kind != 'Boss'" data-ng-switch-when="0">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
@@ -68,42 +68,42 @@
     <tr>
         <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
         <td data-ng-switch on="monster.kind">
-            <img ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
-            <img ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
+            <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
+            <img data-ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
             {{monster.kind}}</td>
         <td data-ng-switch on="monster.race">
-            <img ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
-            <img ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
-            <img ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
-            <img ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
-            <img ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
+            <img data-ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
+            <img data-ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
+            <img data-ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
+            <img data-ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
+            <img data-ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
             {{monster.race}}</td>
         <td data-ng-switch on="monster.elem">
-            <img ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
-            <img ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
-            <img ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
-            <img ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
-            <img ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
-            <img ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
-            <img ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
-            <img ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
+            <img data-ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
+            <img data-ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
+            <img data-ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
+            <img data-ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
+            <img data-ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
+            <img data-ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
+            <img data-ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
+            <img data-ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
             {{monster.elem}}</td>
         <td data-ng-switch on="monster.armr">
-            <img ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
-            <img ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
-            <img ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
-            <img ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
+            <img data-ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
+            <img data-ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
+            <img data-ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
+            <img data-ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
             {{monster.armr}}</td>
         <td data-ng-switch on="monster.foot">
-            <img ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
-            <img ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
-            <img ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
+            <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
+            <img data-ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
+            <img data-ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
             {{monster.foot}}</td>
         <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
     </tr>
 </table>
                     </div>
-                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0" ng-switch-when="1">
+                    <div data-ng-repeat="monster in monDb.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="1">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
@@ -122,36 +122,36 @@
     <tr>
         <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
         <td data-ng-switch on="monster.kind">
-            <img ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
-            <img ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
+            <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
+            <img data-ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
             {{monster.kind}}</td>
         <td data-ng-switch on="monster.race">
-            <img ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
-            <img ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
-            <img ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
-            <img ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
-            <img ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
+            <img data-ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
+            <img data-ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
+            <img data-ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
+            <img data-ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
+            <img data-ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
             {{monster.race}}</td>
         <td data-ng-switch on="monster.elem">
-            <img ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
-            <img ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
-            <img ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
-            <img ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
-            <img ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
-            <img ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
-            <img ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
-            <img ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
+            <img data-ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
+            <img data-ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
+            <img data-ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
+            <img data-ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
+            <img data-ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
+            <img data-ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
+            <img data-ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
+            <img data-ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
             {{monster.elem}}</td>
         <td data-ng-switch on="monster.armr">
-            <img ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
-            <img ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
-            <img ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
-            <img ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
+            <img data-ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
+            <img data-ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
+            <img data-ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
+            <img data-ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
             {{monster.armr}}</td>
         <td data-ng-switch on="monster.foot">
-            <img ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
-            <img ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
-            <img ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
+            <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
+            <img data-ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
+            <img data-ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
             {{monster.foot}}</td>
         <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
     </tr>
@@ -159,21 +159,21 @@
                     </div>
                 </div>
             </div>
-            <div class="panel panel-default" data-ng-show="tabz.isSelected(2)">
+            <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(2)">
                 <div class="panel-body">
                         NPC Panel
                 </div>
             </div>
-            <div class="panel panel-default" data-ng-show="tabz.isSelected(3)">
+            <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(3)">
                 <div class="panel-body">
                         Sub Areas Panel
                 </div>
             </div>
         </section>
 </div>
-<div id="searchFooter" data-ng-if="sfoot.searchFooter == 1">
+<div id="searchFooter" data-ng-if="footCtrl.searchFooter == 1">
     <div class="container" >
-    <form action="database/monsters/" method="get">
+    <form name="monsterSearcher" data-ng-controller="monsterSearch as monSrch" data-ng-submit="monSrch.Search(forThese)">
         <table>
             <tr>
                 <td><b>Name</b></td>
@@ -183,10 +183,10 @@
                 <td><b>Element</b></td>
                 <td><b>Armor</b></td>
                 <td><b>Move</b></td>
-                <td><a class="boxclose" ng-click="sfoot.toggle()"></a></td>
+                <td><a class="boxclose" data-ng-click="footCtrl.toggle()"></a></td>
             </tr>
             <tr>
-                <td><input type="text" name="name" value="" /></td>
+                <td><input type="text" name="name" value="" data-ng-model="reviewCtrl.review.stars"/></td>
                 <td>
                     <select name="order" style="width: 80px;">
                         <option>Level</option>

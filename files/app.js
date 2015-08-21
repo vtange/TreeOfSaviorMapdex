@@ -45,7 +45,7 @@
   app.controller('monsterDb', function($controller) {
     this.monstall = monstall;
     }) //end of controller
-  app.controller('searchFooter', function() {
+  app.controller('footerControl', function() {
         //toggle search footer
       this.searchFooter = 0;
       this.toggle = function(){
@@ -59,6 +59,9 @@
       this.toggledOn = function(){
           return this.searchFooter === 1;
       };
+}) //end of controller
+  app.controller('monsterSearch', function() {
+       
 }) //end of controller
   //end of function
 })();
