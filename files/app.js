@@ -63,7 +63,16 @@
   app.controller('monsterSearch', function() {
       this.monstall = monstall;
       this.forThese = {};
+      this.searchSubmit = [];
       this.Search = function(filters){
+          this.searchSubmit.push(this.forThese);
+          this.forThese.name = "";
+          this.forThese.orderBy = "";
+          this.forThese.kind = "";
+          this.forThese.race = "";
+          this.forThese.elem = "";
+          this.forThese.armr = "";
+          this.forThese.foot = "";
       };
 }) //end of controller
   //end of function
