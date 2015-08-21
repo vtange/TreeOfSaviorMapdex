@@ -93,6 +93,36 @@ h5 {
 #rightside td {
     text-align: center;
 }
+.btn {
+   color:white;
+   background-color: transparent;
+   margin-bottom: 10px;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+button:focus, .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+    outline: 0;
+}
+.btn-default:active, .btn-default:focus {
+   color:white;
+   background-color: transparent;
+   margin-bottom: 10px;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+input::-moz-focus-inner {
+    border: 0;
+}
+.panel-body .btn {
+   margin-right: 10px;
+}
 #searchFooter {
     position: fixed;
     left:0px;
