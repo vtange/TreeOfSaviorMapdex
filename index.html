@@ -173,7 +173,7 @@
 </div>
 <div id="searchFooter" data-ng-if="footCtrl.searchFooter == 1">
     <div class="container" >
-    <form name="monsterSearcher" data-ng-controller="monsterSearch as monSrch" data-ng-submit="monSrch.Search(forThese)">
+    <form name="monsterSearcher" data-ng-controller="monsterSearch as monSrch" data-ng-submit="monSrch.Search(forThese)" novalidate>
         <table>
             <tr>
                 <td><b>Name</b></td>
@@ -241,11 +241,12 @@
                     </select>
                 </td>
                 <td>
-                    <button type="submit" name="search" value="search">Search</button>
-                    <a href>Reset</a>
+                    <button type="submit" name="submit" value="Submit">Search</button>
+                    <button type="reset" value="Reset" data-ng-click="monSrch.forThese = {}">Reset</button>
                 </td>
             </tr>
         </table>
+        Seach for {{monSrch.forThese.name}}, {{monSrch.forThese.kind}}, {{monSrch.forThese.race}}, {{monSrch.forThese.elem}}, {{monSrch.forThese.armr}}, {{monSrch.forThese.foot}} monsters, order by {{monSrch.forThese.orderBy}}
     </form>
     </div>
 </div>

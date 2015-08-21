@@ -61,7 +61,10 @@
       };
 }) //end of controller
   app.controller('monsterSearch', function() {
-       
+      this.monstall = monstall;
+      this.forThese = {};
+      this.Search = function(filters){
+      };
 }) //end of controller
   //end of function
 })();
