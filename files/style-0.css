@@ -97,13 +97,28 @@ h5 {
     position: fixed;
     left:0px;
     bottom:0px;
-    width:50%;
+    width:950px;
 
     padding: 24px;
     background:rgba(200,200,200,0.95);
     box-shadow: 0px -7px 14px rgba(0,0,0,0.75);
 }
-
 #searchFooter select {
     margin: 10px;
+}
+#searchFooter a.boxclose{
+    position: relative;
+    left:80px;
+    bottom:10px;
+
+    cursor:pointer;
+    color: #777;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px; 
+}
+#searchFooter .boxclose:before {
+    content: "×";
 }
