@@ -20,18 +20,18 @@
       this.isSelected = function(checkTab){
           return this.tab === checkTab;
       };
-      //toggle button
-      this.monsterToggle = 0;
+      //toggle boss button
+      this.bossToggle = 0;
       this.toggle = function(){
-        if(this.monsterToggle == 0){
-            return this.monsterToggle = 1;
+        if(this.bossToggle == 0){
+            return this.bossToggle = 1;
         }
         else {
-            return this.monsterToggle = 0;
+            return this.bossToggle = 0;
         }
       };
-     this.toggledOn = function(){
-          return this.monsterToggle === 1;
+      this.toggledOn = function(){
+          return this.bossToggle === 1;
       };
       //floor changing
       this.floor = 1;
@@ -45,5 +45,20 @@
   app.controller('monsterDb', function($controller) {
     this.monstall = monstall;
     }) //end of controller
+  app.controller('searchFooter', function() {
+        //toggle search footer
+      this.searchFooter = 0;
+      this.toggle = function(){
+        if(this.searchFooter == 0){
+            return this.searchFooter = 1;
+        }
+        else {
+            return this.searchFooter = 0;
+        }
+      };
+      this.toggledOn = function(){
+          return this.searchFooter === 1;
+      };
+}) //end of controller
   //end of function
 })();

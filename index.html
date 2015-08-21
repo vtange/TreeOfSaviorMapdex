@@ -27,7 +27,7 @@
 
 </div>
 </div>
-
+<div data-ng-controller="searchFooter as sfoot">
     <div id="rightside" data-ng-controller="tabControl as tabz">
         <img style="width:95%" data-ng-src="{{mapp.zone.map}}" data-ng-show="mapp.zone.map"/>
         <!--<img src="map/innerdistrict.jpg"/>-->
@@ -46,8 +46,9 @@
                 <li role="presentation" data-ng-class="{ active: tabz.isSelected(3)}"><a href data-ng-click="tabz.selectTab(3)"><h5>Sub Areas</h5></a></li>
             </ul>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(1)" data-ng-controller="monsterDb as mond">
-                <div class="panel-body" data-ng-switch on="tabz.monsterToggle">
+                <div class="panel-body" data-ng-switch on="tabz.bossToggle">
                     <button class="btn btn-default" data-ng-class="{ active: tabz.toggledOn()}" ng-click="tabz.toggle()">Show Bosses</button>
+                    <button class="btn btn-default" data-ng-class="{ active: sfoot.toggledOn()}" ng-click="sfoot.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0 && monster.kind != 'Boss'" ng-switch-when="0">
                         <table border="1">
     <tr>
@@ -170,11 +171,8 @@
             </div>
         </section>
 </div>
-
-
-
-<div id="searchFooter">
-    <div class="container">
+<div id="searchFooter" data-ng-if="sfoot.searchFooter == 1">
+    <div class="container" >
     <form action="database/monsters/" method="get">
         <table>
             <tr>
@@ -185,7 +183,7 @@
                 <td><b>Element</b></td>
                 <td><b>Armor</b></td>
                 <td><b>Move</b></td>
-                <td><a class="boxclose"></a></td>
+                <td><a class="boxclose" ng-click="sfoot.toggle()"></a></td>
             </tr>
             <tr>
                 <td><input type="text" name="name" value="" /></td>
@@ -251,7 +249,7 @@
     </form>
     </div>
 </div>
-
+</div>
 <!--tooltip script below-->
 <div id="tooltip" style="display: none; left: 843px; top: 1348px;"></div><div id="tooltip2" style="display: none; position: absolute; z-index: 999; word-wrap: break-word;"></div>
         <script type="text/javascript">
