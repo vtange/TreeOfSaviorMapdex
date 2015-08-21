@@ -171,6 +171,77 @@
         </section>
 </div>
 
+
+
+<div id="searchFooter">
+    <div class="container">
+    <form action="database/monsters/" method="get">
+        <table>
+            <tr>
+                <td><b>Name</b></td>
+                <td><b>Order</b></td>
+                <td><b>Type</b></td>
+                <td><b>Race</b></td>
+                <td><b>Element</b></td>
+                <td><b>Armor</b></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name" value="" /></td>
+                <td>
+                    <select name="order" style="width: 80px;">
+                        <option>Level</option>
+                        <option>Name</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="type" style="width: 80px;">
+                        <option>All</option>
+                        <option>Boss</option>
+                        <option>Normal</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="race" style="width: 80px;">
+                        <option>All</option>
+                        <option>Beast</option>
+                        <option>Demon</option>
+                        <option>Insect</option>
+                        <option>Mutant</option>
+                        <option>Plant</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="element" style="width: 80px;">
+                        <option>All</option>
+                        <option>Dark</option>
+                        <option>Earth</option>
+                        <option>Fire</option>
+                        <option>Holy</option>
+                        <option>Ice</option>
+                        <option>Lightning</option>
+                        <option>Melee</option>
+                        <option>Poison</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="armor" style="width: 80px;">
+                        <option>All</option>
+                        <option>Cloth</option>
+                        <option>Ghost</option>
+                        <option>Leather</option>
+                        <option>Plate</option>
+                    </select>
+                </td>
+                <td>
+                    <button type="submit" name="search" value="search">Search</button>
+                    <a href>Reset</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</div>
+
 <!--tooltip script below-->
 <div id="tooltip" style="display: none; left: 843px; top: 1348px;"></div><div id="tooltip2" style="display: none; position: absolute; z-index: 999; word-wrap: break-word;"></div>
         <script type="text/javascript">
