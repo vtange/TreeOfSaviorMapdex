@@ -33,11 +33,11 @@
         <!--<img src="map/innerdistrict.jpg"/>-->
         <h2>{{mapp.zone.name}}</h2>
         <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default" data-ng-click="tabz.changeFloor(1)" data-ng-if="mapp.zone.floors >= 1">F1</button>
-                        <button type="button" class="btn btn-default" data-ng-click="tabz.changeFloor(2)" data-ng-if="mapp.zone.floors >= 2">F2</button>
-                        <button type="button" class="btn btn-default" data-ng-click="tabz.changeFloor(3)" data-ng-if="mapp.zone.floors >= 3">F3</button>
-                        <button type="button" class="btn btn-default" data-ng-click="tabz.changeFloor(4)" data-ng-if="mapp.zone.floors >= 4">F4</button>
-                        <button type="button" class="btn btn-default" data-ng-click="tabz.changeFloor(5)" data-ng-if="mapp.zone.floors >= 5">F5</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(1)}" data-ng-click="tabz.changeFloor(1)" data-ng-if="mapp.zone.floors >= 1">F1</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(2)}" data-ng-click="tabz.changeFloor(2)" data-ng-if="mapp.zone.floors >= 2">F2</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(3)}" data-ng-click="tabz.changeFloor(3)" data-ng-if="mapp.zone.floors >= 3">F3</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(4)}" data-ng-click="tabz.changeFloor(4)" data-ng-if="mapp.zone.floors >= 4">F4</button>
+                        <button type="button" class="btn btn-default" data-ng-class="{ active: tabz.currentFloor(5)}" data-ng-click="tabz.changeFloor(5)" data-ng-if="mapp.zone.floors >= 5">F5</button>
         </div>
         <section>
             <ul class="nav nav-tabs">

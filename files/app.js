@@ -35,6 +35,9 @@
       this.changeFloor = function(newFloor){
           this.floor = newFloor;
       };
+      this.currentFloor = function(isFloor){
+          return this.floor === isFloor;
+      };
     }) //end of controller
   app.controller('monsterDb', function($controller) {
     this.monstall = monstall;
