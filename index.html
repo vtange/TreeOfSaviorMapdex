@@ -186,22 +186,22 @@
                 <td><a class="boxclose" data-ng-click="footCtrl.toggle()"></a></td>
             </tr>
             <tr>
-                <td><input type="text" name="name" value="" data-ng-model="reviewCtrl.review.stars"/></td>
+                <td><input type="text" name="name" value="" data-ng-model="monSrch.forThese.name"/></td>
                 <td>
-                    <select name="order" style="width: 80px;">
+                    <select name="order" style="width: 80px;" data-ng-model="monSrch.forThese.orderIn">
                         <option>Level</option>
                         <option>Name</option>
                     </select>
                 </td>
                 <td>
-                    <select name="type" style="width: 80px;">
+                    <select name="type" style="width: 80px;" data-ng-model="monSrch.forThese.kind">
                         <option>All</option>
                         <option>Boss</option>
                         <option>Normal</option>
                     </select>
                 </td>
                 <td>
-                    <select name="race" style="width: 80px;">
+                    <select name="race" style="width: 80px;" data-ng-model="monSrch.forThese.race">
                         <option>All</option>
                         <option>Beast</option>
                         <option>Demon</option>
@@ -211,7 +211,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="element" style="width: 80px;">
+                    <select name="element" style="width: 80px;" data-ng-model="monSrch.forThese.elem">
                         <option>All</option>
                         <option>Dark</option>
                         <option>Earth</option>
@@ -224,7 +224,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="armor" style="width: 80px;">
+                    <select name="armor" style="width: 80px;" data-ng-model="monSrch.forThese.armr">
                         <option>All</option>
                         <option>Cloth</option>
                         <option>Ghost</option>
@@ -233,7 +233,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="move" style="width: 80px;">
+                    <select name="move" style="width: 80px;" data-ng-model="monSrch.forThese.foot">
                         <option>All</option>
                         <option>Normal</option>
                         <option>Stationary</option>
