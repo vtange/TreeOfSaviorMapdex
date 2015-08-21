@@ -30,6 +30,9 @@
             return this.monsterToggle = 0;
         }
       };
+     this.toggledOn = function(){
+          return this.monsterToggle === 1;
+      };
       //floor changing
       this.floor = 1;
       this.changeFloor = function(newFloor){

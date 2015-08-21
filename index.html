@@ -47,8 +47,8 @@
             </ul>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(1)" data-ng-controller="monsterDb as mond">
                 <div class="panel-body" data-ng-switch on="tabz.monsterToggle">
-
-                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0" ng-switch-when="0">
+                    <button class="btn btn-default" data-ng-class="{ active: tabz.toggledOn()}" ng-click="tabz.toggle()">Show Bosses</button>
+                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0 && monster.kind != 'Boss'" ng-switch-when="0">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
@@ -102,7 +102,7 @@
     </tr>
 </table>
                     </div>
-                    <div data-ng-repeat="monster in mond.monstall" ng-switch-when="1">
+                    <div data-ng-repeat="monster in mond.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabz.floor) >= 0" ng-switch-when="1">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
@@ -156,7 +156,6 @@
     </tr>
 </table>
                     </div>
-                    <!--<button ng-click="tabz.toggle()">Search Monsters</button>---------------------------------make a search form footer that spits out a list in another page------>
                 </div>
             </div>
             <div class="panel panel-default" data-ng-show="tabz.isSelected(2)">
