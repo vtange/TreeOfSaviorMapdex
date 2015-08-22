@@ -66,13 +66,7 @@
       this.searchSubmit = [];
       this.Search = function(filters){
           this.searchSubmit.push(this.forThese);
-          this.forThese.name = "";
-          this.forThese.orderBy = "";
-          this.forThese.kind = "";
-          this.forThese.race = "";
-          this.forThese.elem = "";
-          this.forThese.armr = "";
-          this.forThese.foot = "";
+          this.forThese = {};
       };
 }) //end of controller
   //end of function
