@@ -64,7 +64,7 @@
       this.monstall = monstall;
       this.forThese = {};
       this.searchSubmit = [];
-      this.Search = function(filters){
+      this.Search = function(){
           this.searchSubmit.push(this.forThese);
           this.forThese = {};
       };
