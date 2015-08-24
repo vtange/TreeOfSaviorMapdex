@@ -27,7 +27,7 @@
 
 </div>
 </div>
-<div data-ng-controller="footerControl as footCtrl">
+<div data-ng-controller="searchControl as srchCtrl">
     <div id="rightside" data-ng-controller="tabControl as tabCtrl">
         <img style="width:95%" data-ng-src="{{mapp.zone.map}}" data-ng-show="mapp.zone.map"/>
         <!--<img src="map/innerdistrict.jpg"/>-->
@@ -48,7 +48,7 @@
             <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(1)" data-ng-controller="monsterDb as monDb">
                 <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
                     <button class="btn btn-default" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
-                    <button class="btn btn-default" data-ng-class="{ active: footCtrl.toggledOn()}" data-ng-click="footCtrl.toggle()">Search All Monsters</button>
+                    <button class="btn btn-default" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in monDb.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0 && monster.kind != 'Boss'" data-ng-switch-when="0">
                         <table border="1">
     <tr>
@@ -171,7 +171,7 @@
             </div>
         </section>
 </div>
-<div id="searchFooter" data-ng-if="footCtrl.searchFooter == 1">
+<div id="searchFooter" data-ng-if="srchCtrl.searchFooter == 1">
     <div class="container" >
     <form name="monsterSearcher" data-ng-controller="monsterSearch as monSrch" data-ng-submit="monSrch.Search(forThese)" novalidate>
         <table>
@@ -183,7 +183,7 @@
                 <td><b>Element</b></td>
                 <td><b>Armor</b></td>
                 <td><b>Move</b></td>
-                <td><a class="boxclose" data-ng-click="footCtrl.toggle()"></a></td>
+                <td><a class="boxclose" data-ng-click="srchCtrl.toggle()"></a></td>
             </tr>
             <tr>
                 <td><input type="text" name="name" value="" data-ng-model="monSrch.forThese.name"/></td>
@@ -241,7 +241,7 @@
                     </select>
                 </td>
                 <td>
-                    <button type="submit" value="Submit">Search</button>
+                    <button type="submit" value="Submit" data-ng-click="srchCtrl.toggle2()">Search</button>
                     <button type="reset" value="Reset" data-ng-click="monSrch.forThese = {}">Reset</button>
                 </td>
             </tr>
@@ -251,8 +251,8 @@
     </form>
     </div>
 </div>
-<div id="resultsPopup">
-        <h2>Search Results</h2><a class="boxclose" data-ng-click=""></a>
+<div id="resultsPopup" data-ng-if="srchCtrl.searchResults == 1">
+        <h2>Search Results</h2><a class="boxclose" data-ng-click="srchCtrl.toggle2()"></a>
         <div style="position: relative; width: 700px; margin: 0px auto; height: 1313px; background-image: url(map/worldmap_details_full.jpg);"></div>
         <div data-ng-repeat="monster in monDb.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0 && monster.kind != 'Boss'" data-ng-switch-when="0">
                         <table border="1">
