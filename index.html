@@ -253,8 +253,7 @@
 </div>
 <div id="resultsPopup" data-ng-if="srchCtrl.searchResults == 1">
         <h2>Search Results</h2><a class="boxclose" data-ng-click="srchCtrl.toggle2()"></a>
-        <div style="position: relative; width: 700px; margin: 0px auto; height: 1313px; background-image: url(map/worldmap_details_full.jpg);"></div>
-        <div data-ng-repeat="monster in monDb.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0 && monster.kind != 'Boss'" data-ng-switch-when="0">
+        <div data-ng-repeat="monster in srchCtrl.monstall" data-ng-if="monster.where == mapp.zone.id">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>

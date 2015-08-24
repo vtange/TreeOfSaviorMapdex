@@ -46,6 +46,7 @@
     this.monstall = monstall;
     }) //end of controller
   app.controller('searchControl', function() {
+      this.monstall = monstall;
         //toggle search footer
       this.searchFooter = 0;
       this.toggle = function(){
@@ -60,7 +61,7 @@
           return this.searchFooter === 1;
       };
         //toggle search results
-      this.searchResults = 1;
+      this.searchResults = 0;
       this.toggle2 = function(){
         if(this.searchResults == 0){
             return this.searchResults = 1;
@@ -74,7 +75,6 @@
       };
 }) //end of controller
   app.controller('monsterSearch', function() {
-      this.monstall = monstall;
       this.forThese = {};
       this.searchSubmit = [];
       this.Search = function(){
