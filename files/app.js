@@ -5,7 +5,7 @@
     var MonsterDB = {};
 
     // The array that will contain search results
-    MonsterDB.arrSearchResults = [];
+    MonsterDB.monstsearch = [];
     MonsterDB.monstall = monstall;
         
         
@@ -56,7 +56,7 @@
     $scope.MonsterDB = MonsterDB;
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
-    $scope.MonsterDB = MonsterDB;
+    $scope.MonsterDB = MonsterDB;//html should reference monstsearch
         //toggle search footer
       this.searchFooter = 0;
       this.toggle = function(){
@@ -84,12 +84,14 @@
           return this.searchResults === 1;
       };
 }]) //end of controller
-  app.controller('monsterSearch',['MonsterDB', function(MonsterDB) {
+  app.controller('monsterSearch',['$scope','MonsterDB', function($scope, MonsterDB) {
+      //this is a form
       this.forThese = {};
       this.searchSubmit = {};
       this.Search = function(){
           this.searchSubmit = this.forThese;
           this.forThese = {};
+          //monstsearch should update by filters here.
       };
 }]) //end of controller
   //end of function
