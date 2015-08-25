@@ -1,6 +1,15 @@
 (function() {
     //start of function
   var app = angular.module('mapDex', []);
+    app.factory('SearchService', function() {
+    var SearchService;
+    SearchService = {};
+
+    // The array that will contain search results
+    SearchService.arrSearchResults = [];
+
+    return SearchService;
+  });
   app.controller('mapSelector', function() {
     this.zones = zones;
     this.zone = this.zones.map_1021;
@@ -42,10 +51,13 @@
           return this.floor === isFloor;
       };
     }) //end of controller
-  app.controller('monsterDb', function($controller) {
+  app.controller('monsterDb', function() {
     this.monstall = monstall;
     }) //end of controller
-  app.controller('searchControl', function() {
+  app.controller('searchControl',['$controller','SearchService', function($controller, SearchService) {
+        //create instance of parent controller
+      this.searcher = $controller('monsterSearch',{});
+        //^works
       this.monstall = monstall;
         //toggle search footer
       this.searchFooter = 0;
@@ -73,14 +85,14 @@
       this.toggledOn2 = function(){
           return this.searchResults === 1;
       };
-}) //end of controller
-  app.controller('monsterSearch', function() {
+}]) //end of controller
+  app.controller('monsterSearch',['SearchService', function(SearchService) {
       this.forThese = {};
-      this.searchSubmit = [];
+      this.searchSubmit = {};
       this.Search = function(){
-          this.searchSubmit.push(this.forThese);
+          this.searchSubmit = this.forThese;
           this.forThese = {};
       };
-}) //end of controller
+}]) //end of controller
   //end of function
 })();
