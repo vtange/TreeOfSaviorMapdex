@@ -253,7 +253,7 @@
 </div>
     <div id="resultsPopup" data-ng-if="srchCtrl.searchResults == 1">
         <h2>Search Results</h2><a class="boxclose" data-ng-click="srchCtrl.toggle2()"></a>
-        <div id="resultsContent">
+        <div id="resultsContent" class="well">
             <div data-ng-repeat="monster in srchCtrl.monstall" data-ng-if="monster.where == mapp.zone.id">
                         <table border="1">
     <tr>
