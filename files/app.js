@@ -1,6 +1,6 @@
 (function() {
     //start of function
-  var app = angular.module('mapDex', []);
+  var app = angular.module('mapDex', ['filters']);
     app.factory('MonsterDB', function() {
     var MonsterDB = {};
 
