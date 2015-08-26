@@ -50,7 +50,7 @@
                 <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
                     <button class="btn btn-default" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
                     <button class="btn btn-default" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
-                    <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0 && monster.kind != 'Boss'" data-ng-switch-when="0">
+                    <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="0">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
