@@ -15,7 +15,7 @@ filters.filter('noBosses', function() {
 });
     
 filters.filter('matchWith', function() {
-    return function(input, searchSubmit) {
+    return function(input, modelObject) {
         var out = [];
         for (var i = 0; i < input.length; i++) {
             if(input[i].race == "Demon"){

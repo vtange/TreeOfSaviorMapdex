@@ -255,7 +255,7 @@
     <div id="resultsPopup" data-ng-if="srchCtrl.searchResults == 1">
         <h2>Search Results</h2><a class="boxclose" data-ng-click="srchCtrl.toggle2()"></a>
         <div id="resultsContent" class="well">
-            <div data-ng-repeat="monster in MonsterDB.monstall | matchWith">
+            <div data-ng-repeat="monster in MonsterDB.monstall | matchWith:monSrch.searchSubmit">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
