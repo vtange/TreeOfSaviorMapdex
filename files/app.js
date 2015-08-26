@@ -1,16 +1,11 @@
 (function() {
     //start of function
   var app = angular.module('mapDex', ['filters']);
-    app.factory('MonsterDB', function() {
+  app.factory('MonsterDB', function() {
     var MonsterDB = {};
-
-    // The array that will contain search results
-    MonsterDB.monstsearch = [];
     MonsterDB.monstall = monstall;
-        
-        
     return MonsterDB;
-  });
+  }); //end of service
   app.controller('mapSelector', function() {
     this.zones = zones;
     this.zone = this.zones.map_1021;
@@ -57,7 +52,7 @@
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
     $scope.MonsterDB = MonsterDB;//html should reference monstsearch
-        //toggle search footer
+//toggle search footer
       this.searchFooter = 0;
       this.toggle = function(){
         if(this.searchFooter == 0){
@@ -70,7 +65,7 @@
       this.toggledOn = function(){
           return this.searchFooter === 1;
       };
-        //toggle search results
+//toggle search results
       this.searchResults = 0;
       this.toggle2 = function(){
         if(this.searchResults == 0){
@@ -91,7 +86,6 @@
       this.Search = function(){
           this.searchSubmit = this.forThese;
           this.forThese = {};
-          //monstsearch should update by filters here.
       };
 }]) //end of controller
   //end of function
