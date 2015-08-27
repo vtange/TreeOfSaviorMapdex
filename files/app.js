@@ -4,6 +4,7 @@
   app.factory('MonsterDB', function() {
     var MonsterDB = {};
     MonsterDB.monstall = monstall;
+    //MonsterDB.modelObject =  
     return MonsterDB;
   }); //end of service
   app.controller('mapSelector', function() {
@@ -51,7 +52,8 @@
     $scope.MonsterDB = MonsterDB;
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
-    $scope.MonsterDB = MonsterDB;//html should reference monstsearch
+//monsterDb -> get database, get model object
+    $scope.MonsterDB = MonsterDB;
 //toggle search footer
       this.searchFooter = 0;
       this.toggle = function(){
@@ -65,28 +67,28 @@
       this.toggledOn = function(){
           return this.searchFooter === 1;
       };
-//toggle search results
-      this.searchResults = 0;
+//toggle search popup
+      this.searchPopup = 0;
       this.toggle2 = function(){
-        if(this.searchResults == 0){
-            return this.searchResults = 1;
+        if(this.searchPopup == 0){
+            return this.searchPopup = 1;
         }
         else {
-            return this.searchResults = 0;
+            return this.searchPopup = 0;
         }
       };
       this.toggledOn2 = function(){
-          return this.searchResults === 1;
+          return this.searchPopup === 1;
       };
 }]) //end of controller
   app.controller('monsterSearch',['$scope','MonsterDB', function($scope, MonsterDB) {
       //this is a form
       this.forThese = {};
       this.searchSubmit = {};
-      $scope.modelObject = this.searchSubmit;
+      this.modelObject = this.searchSubmit;
       this.Search = function(){
           this.searchSubmit = this.forThese;
-          $scope.modelObject = this.searchSubmit;
+          this.modelObject = this.searchSubmit;
           this.forThese = {};
       };
 }]) //end of controller
