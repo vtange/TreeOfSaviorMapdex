@@ -83,8 +83,10 @@
       //this is a form
       this.forThese = {};
       this.searchSubmit = {};
+      $scope.modelObject = this.searchSubmit;
       this.Search = function(){
           this.searchSubmit = this.forThese;
+          $scope.modelObject = this.searchSubmit;
           this.forThese = {};
       };
 }]) //end of controller
