@@ -17,9 +17,9 @@ filters.filter('noBosses', function() {
 filters.filter('matchWith', function() {
     return function(input, modelObject) {
         var out = [];
-        console.log(modelObject);
         for (var i = 0; i < input.length; i++) {
-            if(input[i].race == modelObject.race){
+            var obj = input[i];
+            if((obj.kind == modelObject.kind || modelObject.kind == null) && (obj.race == modelObject.race || modelObject.race == null) && (obj.elem == modelObject.elem || modelObject.elem == null) && (obj.armr == modelObject.armr || modelObject.armr == null) && (obj.foot == modelObject.foot || modelObject.foot == null)){
                 out.push(input[i]);
             }
         }
