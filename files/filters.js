@@ -17,8 +17,9 @@ filters.filter('noBosses', function() {
 filters.filter('matchWith', function() {
     return function(input, modelObject) {
         var out = [];
+        console.log(modelObject);
         for (var i = 0; i < input.length; i++) {
-            if(input[i].race == "Demon"){
+            if(input[i].race == modelObject.race){
                 out.push(input[i]);
             }
         }
