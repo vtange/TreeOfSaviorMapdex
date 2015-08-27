@@ -4,7 +4,7 @@
   app.factory('MonsterDB', function() {
     var MonsterDB = {};
     MonsterDB.monstall = monstall;
-    //MonsterDB.modelObject =  
+    MonsterDB.modelObject = {};
     return MonsterDB;
   }); //end of service
   app.controller('mapSelector', function() {
@@ -49,6 +49,7 @@
       };
     }) //end of controller
   app.controller('monsterDb',['$scope','MonsterDB', function($scope, MonsterDB) {
+//monsterDb -> get database, get model object
     $scope.MonsterDB = MonsterDB;
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
@@ -82,13 +83,13 @@
       };
 }]) //end of controller
   app.controller('monsterSearch',['$scope','MonsterDB', function($scope, MonsterDB) {
+      $scope.MonsterDB = MonsterDB;
       //this is a form
       this.forThese = {};
       this.searchSubmit = {};
-      this.modelObject = this.searchSubmit;
       this.Search = function(){
           this.searchSubmit = this.forThese;
-          this.modelObject = this.searchSubmit;
+          $scope.MonsterDB.modelObject = this.forThese;
           this.forThese = {};
       };
 }]) //end of controller

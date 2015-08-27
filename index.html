@@ -246,7 +246,7 @@
                     <button type="reset" value="Reset" data-ng-click="monSrch.forThese = {}">Reset</button>
                 </td>
             </tr>
-            Commited Search: {{monSrch.searchSubmit}}{{modelObject}}
+            Commited Search: {{monSrch.searchSubmit}}{{MonsterDB.modelObject}}
         </table>
         Seach for {{monSrch.forThese.name}}, {{monSrch.forThese.kind}}, {{monSrch.forThese.race}}, {{monSrch.forThese.elem}}, {{monSrch.forThese.armr}}, {{monSrch.forThese.foot}} monsters, order by {{monSrch.forThese.orderBy}}
     </form>
@@ -255,7 +255,7 @@
     <div id="resultsPopup" data-ng-if="srchCtrl.searchPopup == 1">
         <h2>Search Results</h2><a class="boxclose" data-ng-click="srchCtrl.toggle2()"></a>
         <div id="resultsContent" class="well">
-            <div data-ng-repeat="monster in MonsterDB.monstall | matchWith:modelObject">
+            <div data-ng-repeat="monster in MonsterDB.monstall | matchWith:MonsterDB.modelObject">
                         <table border="1">
     <tr>
         <td rowspan="2" style="width: 90px;"><img style="width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
