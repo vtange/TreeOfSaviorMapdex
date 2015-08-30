@@ -19,8 +19,15 @@ filters.filter('matchWith', function() {
         var out = [];
         for (var i = 0; i < input.length; i++) {
             var obj = input[i];
-            if((obj.kind == modelObject.kind || modelObject.kind == null) && (obj.race == modelObject.race || modelObject.race == null) && (obj.elem == modelObject.elem || modelObject.elem == null) && (obj.armr == modelObject.armr || modelObject.armr == null) && (obj.foot == modelObject.foot || modelObject.foot == null)){
-                out.push(input[i]);
+            if (modelObject.name == null) {
+                if((obj.kind == modelObject.kind || modelObject.kind == null) && (obj.race == modelObject.race || modelObject.race == null) && (obj.elem == modelObject.elem || modelObject.elem == null) && (obj.armr == modelObject.armr || modelObject.armr == null) && (obj.foot == modelObject.foot || modelObject.foot == null)){
+                    out.push(input[i]);
+                }
+            }
+            else {
+                if(((obj.name.toLowerCase().search(modelObject.name.toLowerCase())) >= 0) && (obj.kind == modelObject.kind || modelObject.kind == null) && (obj.race == modelObject.race || modelObject.race == null) && (obj.elem == modelObject.elem || modelObject.elem == null) && (obj.armr == modelObject.armr || modelObject.armr == null) && (obj.foot == modelObject.foot || modelObject.foot == null)){
+                    out.push(input[i]);
+                }
             }
         }
         return out;

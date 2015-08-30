@@ -8,7 +8,9 @@
     return MonsterDB;
   }); //end of service
   app.controller('mapSelector', function() {
+//load zones
     this.zones = zones;
+//map selector
     this.zone = this.zones.map_1021;
     this.selectZone = function(setZone){
           this.zone = setZone;
@@ -83,6 +85,7 @@
       };
 }]) //end of controller
   app.controller('monsterSearch',['$scope','MonsterDB', function($scope, MonsterDB) {
+//monsterDb -> get database, get model object
       $scope.MonsterDB = MonsterDB;
       //this is a form
       this.forThese = {};
