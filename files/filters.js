@@ -30,7 +30,19 @@ filters.filter('matchWith', function() {
                 }
             }
         }
-        return out;
+        switch (modelObject.orderBy) {
+            case "name":
+                return out.sort(function(a, b){
+                     var nameA=a.name.toLowerCase(), nameB=b.name.toLowerCase()
+                     if (nameA < nameB) //sort string ascending
+                      return -1
+                     if (nameA > nameB)
+                      return 1
+                     return 0 //default return value (no sorting)
+                    })
+            default:
+                return out.sort(function(a, b) { return a.levl > b.levl;});
+        }
     }
 });
       //end of function
