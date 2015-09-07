@@ -190,6 +190,7 @@
                 <td><input type="text" name="name" value="" data-ng-model="monSrch.forThese.name"/></td>
                 <td>
                     <select name="order" style="width: 80px;" data-ng-model="monSrch.forThese.orderBy">
+                        <option value="">Default</option>
                         <option value="levl">Level</option>
                         <option value="name">Name</option>
                     </select>
@@ -246,9 +247,9 @@
                     <button type="reset" value="Reset" data-ng-click="monSrch.forThese = {}">Reset</button>
                 </td>
             </tr>
-            Commited Search: {{monSrch.searchSubmit}}{{MonsterDB.modelObject}}
+            <!--Commited Search: {{monSrch.searchSubmit}}{{MonsterDB.modelObject}}----for debug use-->
         </table>
-        Seach for {{monSrch.forThese.name}}, {{monSrch.forThese.kind}}, {{monSrch.forThese.race}}, {{monSrch.forThese.elem}}, {{monSrch.forThese.armr}}, {{monSrch.forThese.foot}} monsters, order by {{monSrch.forThese.orderBy}}
+        <!--Search for {{monSrch.forThese.name}}, {{monSrch.forThese.kind}}, {{monSrch.forThese.race}}, {{monSrch.forThese.elem}}, {{monSrch.forThese.armr}}, {{monSrch.forThese.foot}} monsters, order by {{monSrch.forThese.orderBy}}----for debug use-->
     </form>
     </div>
 </div>
