@@ -48,8 +48,8 @@
             </ul>
             <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(1)" data-ng-controller="monsterDb">
                 <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
-                    <button class="btn btn-default" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
-                    <button class="btn btn-default" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
+                    <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
+                    <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="0">
                         <table border="1">
     <tr>
@@ -159,6 +159,7 @@
 </table>
                     </div>
                 </div>
+                <span style="font-style:italic; margin-left:5%;" data-ng-if="mapp.zone.level == 0">City/Rest Area. No Monsters.</span>
             </div>
             <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(2)">
                 <div class="panel-body">
@@ -310,7 +311,7 @@
     </tr>
 </table>
                     </div>
-            <div style="font-style:italic" ng-if="!filteredMonsters.length">No monsters found.</div>
+            <div style="font-style:italic" data-ng-if="!filteredMonsters.length">No monsters found.</div>
         </div>
     </div>
 </div>
