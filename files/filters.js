@@ -13,13 +13,13 @@ filters.filter('noBosses', function() {
         return out;
     }
 });
-    
+
 filters.filter('matchWith', function() {
     return function(input, modelObject) {
         var out = [];
         for (var i = 0; i < input.length; i++) {
             var obj = input[i];
-            if (modelObject.name == null) {
+            if (modelObject.name == null) {     //name isn't as optional as other properties. if name is null then the toLowerCase() and search methods will throw error, so make case for name and case for no name.
                 if((obj.kind == modelObject.kind || modelObject.kind == null) && (obj.race == modelObject.race || modelObject.race == null) && (obj.elem == modelObject.elem || modelObject.elem == null) && (obj.armr == modelObject.armr || modelObject.armr == null) && (obj.foot == modelObject.foot || modelObject.foot == null)){
                     out.push(input[i]);
                 }
