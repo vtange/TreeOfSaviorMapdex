@@ -53,6 +53,13 @@
   app.controller('monsterDb',['$scope','MonsterDB', function($scope, MonsterDB) {
 //monsterDb -> get database, get model object
     $scope.MonsterDB = MonsterDB;
+    this.hoverEdit = false;
+    this.hoverIn = function(){
+        this.hoverEdit = true;
+    };
+    this.hoverOut = function(){
+        this.hoverEdit = false;
+    };
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
 //monsterDb -> get database, get model object

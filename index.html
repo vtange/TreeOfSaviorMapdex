@@ -46,14 +46,14 @@
                 <li role="presentation" data-ng-class="{ active: tabCtrl.isSelected(2)}"><a href data-ng-click="tabCtrl.selectTab(2)"><h5>NPCs</h5></a></li>
                 <li role="presentation" data-ng-class="{ active: tabCtrl.isSelected(3)}"><a href data-ng-click="tabCtrl.selectTab(3)"><h5>Sub Areas</h5></a></li>
             </ul>
-            <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(1)" data-ng-controller="monsterDb">
+            <div class="panel panel-default" data-ng-show="tabCtrl.isSelected(1)" data-ng-controller="monsterDb as monDb">
                 <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="0">
-                        <div style="white-space:nowrap">
-                        <button class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
-                        <table>
+                        <div style="white-space:nowrap">{{monDb.hoverEdit}}
+                        <button data-ng-if="monDb.hoverEdit" class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
+                        <table ng-mouseover="monDb.hoverIn()" data-ng-mouseleave="monDb.hoverOut()">
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
