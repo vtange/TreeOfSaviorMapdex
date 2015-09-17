@@ -90,6 +90,7 @@ h5 {
     background-color:transparent;
     border:0px;
 }
+
 #rightside table {
     margin-top:10px;
     margin-bottom: 10px;
@@ -121,12 +122,21 @@ h5 {
     text-align: center;
 }
 
+.del-button{
+    vertical-align:120%;
+    background-color: crimson;
+    line-height: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    display:inline-block
+}
 .edit-button{
-    vertical-align:110%;
+    vertical-align:120%;
     background-color: forestgreen;
     line-height: 16px;
     padding: 8px;
     border-radius: 10px;
+    display:inline-block
 }
 .vertical-text span {
      display: block;
@@ -207,6 +217,7 @@ button:focus, .btn:focus, .btn:active:focus, .btn.active:focus {
     overflow-y: scroll;
     height:90%;
 }
+
 #resultsContent table {
     margin-top:10px;
     margin-bottom: 10px;
