@@ -98,25 +98,10 @@ h5 {
     vertical-align: bottom;
 
     border:1px solid white;
-    border-collapse: separate;
-    border-spacing: 0;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
 }
 #rightside td {
     text-align: center;
     border: 1px solid white;
-}
-.table-left-end td:first-child {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.table-left-end td:first-child img {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-#rightside td:last-child {
-    border-bottom-right-radius: 10px;
 }
 #rightside tr {
     text-align: center;
