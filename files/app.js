@@ -75,16 +75,20 @@
     }
     $scope.save=function(){
         $scope.isEditing=false;
+        $scope.onMonsterNum = -1;
+        $scope.editedItem = {}
         angular.copy($scope.editedItem, $scope.MonsterDB.monstall[$index]);
         //add a hard,persitent save function here.
     }
     $scope.cancelEdit=function(){
          $scope.isEditing=false;
          $scope.onMonsterNum = -1;
+         $scope.editedItem = {};
     }
     $scope.delete=function($index){
       $scope.isEditing=false;
       $scope.onMonsterNum = -1;
+      $scope.editedItem = {};
       $scope.MonsterDB.monstall.splice($index,1);
       //add a hard,persitent delete function here.
     }
