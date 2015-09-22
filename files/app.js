@@ -65,19 +65,19 @@
     $scope.editedItem = {};
     $scope.isEditing=false;
     $scope.onMonsterNum = -1;
-    $scope.editrow=function($index){
+    $scope.editrow=function(index){
         $scope.isEditing=true;
-        $scope.onMonsterNum = $index;
-        angular.copy($scope.MonsterDB.monstall[$index], $scope.editedItem);
+        $scope.onMonsterNum = index;
+        angular.copy($scope.MonsterDB.monstall[index], $scope.editedItem);
     }
-    $scope.editPending=function($index){
-        return $scope.onMonsterNum === $index;
+    $scope.editPending=function(index){
+        return $scope.onMonsterNum === index;
     }
     $scope.save=function(){
         $scope.isEditing=false;
         $scope.onMonsterNum = -1;
         $scope.editedItem = {}
-        angular.copy($scope.editedItem, $scope.MonsterDB.monstall[$index]);
+        angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);
         //add a hard,persitent save function here.
     }
     $scope.cancelEdit=function(){
@@ -85,11 +85,11 @@
          $scope.onMonsterNum = -1;
          $scope.editedItem = {};
     }
-    $scope.delete=function($index){
+    $scope.delete=function(index){
       $scope.isEditing=false;
       $scope.onMonsterNum = -1;
       $scope.editedItem = {};
-      $scope.MonsterDB.monstall.splice($index,1);
+      $scope.MonsterDB.monstall.splice(index,1);
       //add a hard,persitent delete function here.
     }
     }]) //end of controller
