@@ -91,7 +91,7 @@
       $scope.isEditing=false;
       $scope.onMonsterNum = -1;
       $scope.editedItem = {};
-      $scope.MonsterDB.monstall.splice(index,1);
+      $scope.MonsterDB.monstall.splice(index,1);//could also simply angular copy now, and end up with empty object for index. use if index problem with monster create
       //add a hard,persitent delete function here.
     }
     }]) //end of controller
