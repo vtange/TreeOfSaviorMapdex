@@ -125,7 +125,12 @@ h5 {
     background-color: crimson;
     display:block
 }
-.edit-button{
+.ehh-button{
+    width:100%;
+    background-color: goldenrod;
+    display:inline-block
+}
+.good-button{
     width:100%;
     background-color: forestgreen;
     display:inline-block

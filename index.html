@@ -97,7 +97,7 @@
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
                         <tr>
-                            <td><button class="edit-button" data-ng-click="editrow($index)">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                            <td><button class="good-button" data-ng-click="editrow($index)">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
                         <table class="table-edit-form" data-ng-if="editPending($index) == true">{{"Edit mode: " +isEditing}}, {{"Copied item: #" + $index + " " + editedItem.name}}
@@ -153,8 +153,11 @@
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
                         <tr>
-                            <td><button class="edit-button" data-ng-click="cancelEdit()">CANCEL</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                            <td><button class="ehh-button" data-ng-click="cancelEdit()">CANCEL</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
+                            <tr>
+                                <td><button class="good-button">SAVE</button></td>
+                            </tr>
                         </table>
                     </div>
                     <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="1">
@@ -211,7 +214,7 @@
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
                         <tr>
-                            <td><button class="edit-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                            <td><button class="good-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
                     </div>
