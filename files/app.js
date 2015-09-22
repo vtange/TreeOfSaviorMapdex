@@ -73,7 +73,8 @@
     $scope.editPending=function(index){
         return $scope.onMonsterNum === index;
     }
-    $scope.save=function(){
+    $scope.save=function(index){
+        console.log("saving..");
         $scope.isEditing=false;
         $scope.onMonsterNum = -1;
         $scope.editedItem = {}

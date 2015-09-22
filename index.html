@@ -100,7 +100,7 @@
                             <td><button class="good-button" data-ng-click="editrow(MonsterDB.monstall.indexOf(monster))">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
-                        <table class="table-edit-form" data-ng-if="editPending(MonsterDB.monstall.indexOf(monster)) == true">{{editedItem.name +", "+ editedItem.levl +", "+ editedItem.kind +", "+ editedItem.race}}
+                        <table class="table-edit-form" data-ng-if="editPending(MonsterDB.monstall.indexOf(monster)) == true">{{editedItem.name +", "+ editedItem.where +", "+ editedItem.floor +", "+ editedItem.race}}
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
@@ -117,7 +117,7 @@
                             <td rowspan="3"><button class="del-button vertical-text" data-ng-click="delete(MonsterDB.monstall.indexOf(monster))"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
                         </tr>
                         <tr>
-                            <td><input type="text" placeholder="{{editedItem.name}}" ng-model="editedItem.name"></input></td><td><input style="width:40px;" type="text" placeholder="{{editedItem.levl}}" ng-model="editedItem.levl"></td>
+                            <td><input type="text" placeholder="{{editedItem.name}}" data-ng-model="editedItem.name"></input></td><td><input style="width:40px;" type="text" placeholder="{{editedItem.levl}}" data-ng-model="editedItem.levl"></td>
                             <td data-ng-switch on="editedItem.kind">
                                 <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
                                 <img data-ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
@@ -183,7 +183,7 @@
                             <td><button class="ehh-button" data-ng-click="cancelEdit()">CANCEL</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                             <tr>
-                                <td><button class="good-button">SAVE</button></td>
+                                <td><button class="good-button" data-ng-click="save(MonsterDB.monstall.indexOf(monster))">SAVE</button></td>
                             </tr>
                         </table>
                     </div>
