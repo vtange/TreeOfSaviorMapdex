@@ -100,7 +100,7 @@
                             <td><button class="good-button" data-ng-click="editrow($index)">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
-                        <table class="table-edit-form" data-ng-if="editPending($index) == true">{{MonsterDB.monstall[$index]}}
+                        <table class="table-edit-form" data-ng-if="editPending($index) == true">{{monster}}<br>{{MonsterDB.monstall[MonsterDB.monstall.indexOf(monster)]}}
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>

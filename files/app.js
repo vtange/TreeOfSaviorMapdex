@@ -64,14 +64,14 @@
     $scope.MonsterDB = MonsterDB;
     $scope.editedItem = {};
     $scope.isEditing=false;
-    $scope.$index = -1;
+    $scope.onMonsterNum = -1;
     $scope.editrow=function($index){
         $scope.isEditing=true;
-        $scope.$index = $index;
+        $scope.onMonsterNum = $index;
         angular.copy($scope.MonsterDB.monstall[$index], $scope.editedItem);
     }
     $scope.editPending=function($index){
-        return $scope.$index === $index;
+        return $scope.onMonsterNum === $index;
     }
     $scope.save=function(){
         $scope.isEditing=false;
@@ -80,11 +80,11 @@
     }
     $scope.cancelEdit=function(){
          $scope.isEditing=false;
-         $scope.$index = -1;
+         $scope.onMonsterNum = -1;
     }
     $scope.delete=function($index){
       $scope.isEditing=false;
-      $scope.$index = -1;
+      $scope.onMonsterNum = -1;
       $scope.MonsterDB.monstall.splice($index,1);
       //add a hard,persitent delete function here.
     }
