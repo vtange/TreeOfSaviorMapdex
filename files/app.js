@@ -77,9 +77,10 @@
         console.log("saving..");
         $scope.isEditing=false;
         $scope.onMonsterNum = -1;
-        $scope.editedItem = {}
         angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);
         //add a hard,persitent save function here.
+        //clear editedItem -> LAST, or you save nothing lol
+        $scope.editedItem = {}
     }
     $scope.cancelEdit=function(){
          $scope.isEditing=false;
