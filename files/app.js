@@ -64,6 +64,7 @@
     $scope.MonsterDB = MonsterDB;
     $scope.editedItem = {};
     $scope.isEditing=false;
+    $scope.$index = -1;
     $scope.editrow=function($index){
         $scope.isEditing=true;
         $scope.$index = $index;
@@ -79,6 +80,7 @@
     }
     $scope.cancelEdit=function(){
          $scope.isEditing=false;
+         $scope.$index = -1;
     }
     $scope.delete=function($index){
       $scope.MonsterDB.monstall.splice($index,1);
