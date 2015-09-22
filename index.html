@@ -45,7 +45,7 @@
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="0">
-                        <table>
+                        <table>{{$index}}, {{"Edit mode: " +isEditing}}, {{"Copied item: " + editedItem.name}}, {{MonsterDB.monstall[$index]}}
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
@@ -98,7 +98,7 @@
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
                         <tr>
-                            <td><button class="edit-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                            <td><button class="edit-button" data-ng-click="editrow($index)">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
                     </div>

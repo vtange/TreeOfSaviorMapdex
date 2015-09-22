@@ -62,6 +62,28 @@
   app.controller('monsterDb',['$scope','MonsterDB', function($scope, MonsterDB) {
 //monsterDb -> get database, get model object
     $scope.MonsterDB = MonsterDB;
+    $scope.editedItem = {};
+    $scope.isEditing=false;
+    $scope.editrow=function($index){
+        $scope.isEditing=true;
+        $scope.$index = $index;
+        angular.copy($scope.MonsterDB.monstall[$index], $scope.editedItem);
+    }
+    $scope.editPending=function($index){
+        return $scope.$index === $index;
+    }
+    $scope.save=function(){
+        $scope.isEditing=false;
+        angular.copy($scope.editedItem, $scope.MonsterDB.monstall[$index]);
+        //add a hard,persitent save function here.
+    }
+    $scope.cancelEdit=function(){
+         $scope.isEditing=false;
+    }
+    $scope.delete=function($index){
+      $scope.MonsterDB.monstall.splice($index,1);
+      //add a hard,persitent delete function here.
+    }
     }]) //end of controller
   app.controller('searchControl',['$scope','MonsterDB', function($scope, MonsterDB) {
 //monsterDb -> get database, get model object
