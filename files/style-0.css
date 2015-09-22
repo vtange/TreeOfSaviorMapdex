@@ -108,6 +108,9 @@ h5 {
     position:relative;
     z-index: 999;
 }
+.table-edit-form input{
+    color:black;
+}
 #fadeblock {
     position:fixed;
     top:0;

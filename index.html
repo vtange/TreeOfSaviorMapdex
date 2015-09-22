@@ -45,7 +45,7 @@
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
                     <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="0">
-                        <table data-ng-if="editPending($index) == false">{{"Edit mode: " +isEditing}}, {{"Copied item: #" + $index + " " + editedItem.name}}
+                        <table data-ng-if="editPending($index) == false">
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
@@ -100,7 +100,7 @@
                             <td><button class="good-button" data-ng-click="editrow($index)">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
                         </table>
-                        <table class="table-edit-form" data-ng-if="editPending($index) == true">{{"Edit mode: " +isEditing}}, {{"Copied item: #" + $index + " " + editedItem.name}}
+                        <table class="table-edit-form" data-ng-if="editPending($index) == true">{{MonsterDB.monstall[$index]}}
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
@@ -117,7 +117,7 @@
                             <td rowspan="3"><button class="del-button vertical-text" data-ng-click="delete($index)"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
                         </tr>
                         <tr>
-                            <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
+                            <td><h4><input type="text" placeholder="{{editedItem.name}}" ng-model="editedItem.name"></input></h4></td><td>{{monster.levl}}</td>
                             <td data-ng-switch on="monster.kind">
                                 <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
                                 <img data-ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
