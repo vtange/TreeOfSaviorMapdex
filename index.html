@@ -59,6 +59,7 @@
                             <th style="width: 70px;">EXP</th>
                             <th style="width: 70px;">Class EXP</th>
                             <th>Size</th>-->
+                            <td rowspan="3"><button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
                         </tr>
                         <tr>
                             <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
@@ -96,9 +97,10 @@
                                 <br>{{monster.foot}}</td>
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
+                        <tr>
+                            <td><button class="edit-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Drops:   </td>
+                        </tr>
                         </table>
-                        <button class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
-                        <button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span></button>
                     </div>
                     <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="1">
                         <table>
@@ -115,6 +117,7 @@
                             <th style="width: 70px;">EXP</th>
                             <th style="width: 70px;">Class EXP</th>
                             <th>Size</th>-->
+                            <td rowspan="3"><button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
                         </tr>
                         <tr>
                             <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
@@ -152,9 +155,10 @@
                                 <br>{{monster.foot}}</td>
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
+                        <tr>
+                            <td><button class="edit-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Drops:   </td>
+                        </tr>
                         </table>
-                        <button class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
-                        <button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span></button>
                     </div>
                 </div>
                 <span style="font-style:italic; margin-left:5%;" data-ng-if="mapp.zone.level == 0">City/Rest Area. No Monsters.</span>
