@@ -83,6 +83,8 @@
          $scope.$index = -1;
     }
     $scope.delete=function($index){
+      $scope.isEditing=false;
+      $scope.$index = -1;
       $scope.MonsterDB.monstall.splice($index,1);
       //add a hard,persitent delete function here.
     }
