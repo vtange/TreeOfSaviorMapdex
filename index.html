@@ -44,7 +44,7 @@
                 <div class="panel-body" data-ng-switch on="tabCtrl.bossToggle">
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: tabCtrl.toggledOn()}" data-ng-click="tabCtrl.toggle()">Show Bosses</button>
                     <button class="btn btn-default" data-ng-if="mapp.zone.type != 'City'" data-ng-class="{ active: srchCtrl.toggledOn()}" data-ng-click="srchCtrl.toggle()">Search All Monsters</button>
-                    <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="0">
+                    <div data-ng-repeat="monster in MonsterDB.monstall | noBosses" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="0">
                         <div style="white-space:nowrap">{{monDb.hoverEdit}}
                         <button data-ng-if="monDb.hoverEdit" class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
                         <table ng-mouseover="monDb.hoverIn()" data-ng-mouseleave="monDb.hoverOut()">
@@ -102,7 +102,7 @@
                         <button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span></button>
                     </div>
                     </div>
-                    <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(tabCtrl.floor) >= 0" data-ng-switch-when="1">
+                    <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="1">
                         <div style="white-space:nowrap">
                         <button class="edit-button vertical-text"><span>E</span><span>D</span><span>I</span><span>T</span></button>
                         <table>
