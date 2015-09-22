@@ -188,7 +188,7 @@
                         </table>
                     </div>
                     <div data-ng-repeat="monster in MonsterDB.monstall" data-ng-if="monster.where == mapp.zone.id && monster.floor.indexOf(UiDB.floor) >= 0" data-ng-switch-when="1">
-                        <table>
+                        <table data-ng-if="editPending(MonsterDB.monstall.indexOf(monster)) == false">
                         <tr class="table-left-end">
                             <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
                             <th>Name</th>
@@ -202,7 +202,6 @@
                             <th style="width: 70px;">EXP</th>
                             <th style="width: 70px;">Class EXP</th>
                             <th>Size</th>-->
-                            <td rowspan="3"><button class="del-button vertical-text"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
                         </tr>
                         <tr>
                             <td><h4>{{monster.name}}</h4></td><td>{{monster.levl}}</td>
@@ -241,8 +240,94 @@
                             <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
                         </tr>
                         <tr>
-                            <td><button class="good-button">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                            <td><button class="good-button" data-ng-click="editrow(MonsterDB.monstall.indexOf(monster))">EDIT</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
                         </tr>
+                        </table>
+                        <table class="table-edit-form" data-ng-if="editPending(MonsterDB.monstall.indexOf(monster)) == true">
+                        <tr class="table-left-end">
+                            <td rowspan="2" style="width: 90px;"><img style="display:inline-block; width:95%" data-ng-src="{{monster.pic}}" data-ng-show="monster.pic" style="vertical-align: middle;" /></td>
+                            <th>Name</th>
+                            <th style="width: 70px;">Level</th>
+                            <th style="width: 70px;">Type</th>
+                            <th style="width: 70px;">Race</th>
+                            <th style="width: 70px;">Element</th>
+                            <th style="width: 70px;">Armor</th>
+                            <th style="width: 70px;">Move</th>
+                            <!--<th>Speed</th>
+                            <th style="width: 70px;">EXP</th>
+                            <th style="width: 70px;">Class EXP</th>
+                            <th>Size</th>-->
+                            <td rowspan="3"><button class="del-button vertical-text" data-ng-click="delete(MonsterDB.monstall.indexOf(monster))"><span>D</span><span>E</span><span>L</span><span>E</span><span>T</span><span>E</span></button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="{{editedItem.name}}" data-ng-model="editedItem.name"></input></td><td><input style="width:40px;" type="text" placeholder="{{editedItem.levl}}" data-ng-model="editedItem.levl"></td>
+                            <td data-ng-switch on="editedItem.kind">
+                                <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/mon.png"/>
+                                <img data-ng-switch-when="Boss" src="content/img/icons/mon_info/boss.png"/>
+                                <br><select selected="{{editedItem.kind}}" style="width: 80px;" data-ng-model="editedItem.kind">
+                                    <option value="Boss">Boss</option>
+                                    <option value="Normal">Normal</option>
+                                </select></td>
+                            <td data-ng-switch on="editedItem.race">
+                                <img data-ng-switch-when="Mutant" src="content/img/icons/mon_info/paramune.png"/>
+                                <img data-ng-switch-when="Beast" src="content/img/icons/mon_info/widling.png"/>
+                                <img data-ng-switch-when="Demon" src="content/img/icons/mon_info/velnias.png"/>
+                                <img data-ng-switch-when="Plant" src="content/img/icons/mon_info/forester.png"/>
+                                <img data-ng-switch-when="Insect" src="content/img/icons/mon_info/klaida.png"/>
+                                <br><select selected="{{editedItem.race}}" style="width: 80px;" data-ng-model="editedItem.race">
+                                    <option value="Beast">Beast</option>
+                                    <option value="Demon">Demon</option>
+                                    <option value="Insect">Insect</option>
+                                    <option value="Mutant">Mutant</option>
+                                    <option value="Plant">Plant</option>
+                                </select></td>
+                            <td data-ng-switch on="editedItem.elem">
+                                <img data-ng-switch-when="Earth" src="content/img/icons/mon_info/earth.png"/>
+                                <img data-ng-switch-when="Melee" src="content/img/icons/mon_info/melee.png"/>
+                                <img data-ng-switch-when="Dark" src="content/img/icons/mon_info/dark.png"/>
+                                <img data-ng-switch-when="Poison" src="content/img/icons/mon_info/poison.png"/>
+                                <img data-ng-switch-when="Ice" src="content/img/icons/mon_info/ice.png"/>
+                                <img data-ng-switch-when="Lightning" src="content/img/icons/mon_info/lightning.png"/>
+                                <img data-ng-switch-when="Holy" src="content/img/icons/mon_info/holy.png"/>
+                                <img data-ng-switch-when="Fire" src="content/img/icons/mon_info/fire.png"/>
+                                <br><select selected="{{editedItem.elem}}" style="width: 80px;" data-ng-model="editedItem.elem">
+                                    <option value="Dark">Dark</option>
+                                    <option value="Earth">Earth</option>
+                                    <option value="Fire">Fire</option>
+                                    <option value="Holy">Holy</option>
+                                    <option value="Ice">Ice</option>
+                                    <option value="Lightning">Lightning</option>
+                                    <option value="Melee">Melee</option>
+                                    <option value="Poison">Poison</option>
+                                </select></td>
+                            <td data-ng-switch on="editedItem.armr">
+                                <img data-ng-switch-when="Cloth" src="content/img/icons/mon_info/cloth.png"/>
+                                <img data-ng-switch-when="Leather" src="content/img/icons/mon_info/leather.png"/>
+                                <img data-ng-switch-when="Plate" src="content/img/icons/mon_info/iron.png"/>
+                                <img data-ng-switch-when="Ghost" src="content/img/icons/mon_info/ghost.png"/>
+                                <br><select selected="{{editedItem.armr}}" style="width: 80px;" data-ng-model="editedItem.armr">
+                                    <option value="Cloth">Cloth</option>
+                                    <option value="Ghost">Ghost</option>
+                                    <option value="Leather">Leather</option>
+                                    <option value="Plate">Plate</option>
+                                </select></td>
+                            <td data-ng-switch on="editedItem.foot">
+                                <img data-ng-switch-when="Normal" src="content/img/icons/mon_info/normal.png">
+                                <img data-ng-switch-when="Stationary" src="content/img/icons/mon_info/holding.png">
+                                <img data-ng-switch-when="Flying" src="content/img/icons/mon_info/flying.png">
+                                <br><select selected="{{editedItem.foot}}" style="width: 80px;" data-ng-model="editedItem.foot">
+                                    <option value="Normal">Normal</option>
+                                    <option value="Stationary">Stationary</option>
+                                    <option value="Flying">Flying</option>
+                                </select></td>
+                            <!--<td>24 ~ 32</td><td>{{monster.bxp}}</td><td>{{monster.cxp}}</td><td>M</td>-->
+                        </tr>
+                        <tr>
+                            <td><button class="ehh-button" data-ng-click="cancelEdit()">CANCEL</button></td><td colspan="7" style="padding-left:1em; text-align:left">Population:   </td>
+                        </tr>
+                            <tr>
+                                <td><button class="good-button" data-ng-click="save(MonsterDB.monstall.indexOf(monster))">SAVE</button></td>
+                            </tr>
                         </table>
                     </div>
                 </div>
