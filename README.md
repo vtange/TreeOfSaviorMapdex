@@ -16,9 +16,9 @@ Major Takeaways:
 EDIT MODE
 
  7. Use of a transparent, Full-screen DIV layer to block clicks outside edited object
- 8. Use of angular.copy($scope.MonsterDB.monstall[index], $scope.editedItem);
+ 8. Use of ```angular.copy($scope.MonsterDB.monstall[index], $scope.editedItem);```
       - copy original to form-controlled 'editedItem' to edit.
-      - reverse to save -> angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);
+      - reverse to save -> ```angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);```
 SEARCH MODE
 
  9. Move info from Controller to Controller via Service
