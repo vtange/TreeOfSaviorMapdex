@@ -19,12 +19,13 @@ EDIT MODE
  8. Use of ```angular.copy($scope.MonsterDB.monstall[index], $scope.editedItem);```
       - copy original to form-controlled 'editedItem' to edit.
       - reverse to save -> ```angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);```
+
 SEARCH MODE
 
  9. Move info from Controller to Controller via Service
  10. Angular Filter Array of Objects by 'searched for' object. Basic Name search and attribute searching.
 
-Should've:
+HINDSIGHT:
 
  1. Used a JSON for Map Data
  2. More ng-repeat to avoid repeated HTML elements.
