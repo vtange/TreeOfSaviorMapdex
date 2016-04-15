@@ -4,7 +4,12 @@ A map with monster data inputed in. Made to help orient the Tree of Savior Trans
 
 This was my first app. Very crude and disorganized code. 'Monstall' isn't even proper JSON. A lot of repeat angularized HTML.
 
-Major Takeaways:
+# Major Takeaways:
+CSS:
+ 1. Toggling buttons and tabs -> stay lit up without outlines, etc.
+ 2. "X" for closing pseudoelement (first use) 
+
+JS:
 
  1. Loading JSON Data via HTML
  2. Tabs, floors, selected zone control.
