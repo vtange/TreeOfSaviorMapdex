@@ -9,6 +9,10 @@ This was my first app. Very crude and disorganized code. 'Monstall' isn't even p
 AngularJS + filtering a list via multiple dropdown options.
 JQuery mouseover map popup
 
+### Niceties
+
+CRUD functions: editing monsters. Search w/ 'search results' popup: ng-filter an object via multiple parameters. Monsters based off map-zone AND floor.
+
 ### Details
 #### CSS:
  1. Toggling buttons and tabs -> stay lit up without outlines, etc.
