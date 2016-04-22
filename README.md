@@ -1,3 +1,4 @@
+![alt tag](http://res.cloudinary.com/dmj8qtant/image/upload/c_limit,w_600/v1458021789/txoesa3ldl3ggvlqjmpi.jpg)
 # Tree Of Savior Monster Map
 A map with monster data inputed in. Made to help orient the Tree of Savior Translation group on What monsters are found where.
 
@@ -5,8 +6,8 @@ A map with monster data inputed in. Made to help orient the Tree of Savior Trans
 This was my first app. Very crude and disorganized code. 'Monstall' isn't even proper JSON. A lot of repeat angularized HTML.
 
 ## Tech
-AngularJS + filters
-JQuery for mouseover map popup
+AngularJS + filtering a list via multiple dropdown options.
+JQuery mouseover map popup
 
 ### Details
 #### CSS:
@@ -24,20 +25,20 @@ JQuery for mouseover map popup
  5. Used MonsterDB.monstall.indexOf(monster) instead of $index to track monsters due to issues with non-sequential lists.
  6. Vertical Delete Button
 
-#### EDIT MODE
+###### EDIT MONSTER MODE
 
  7. Use of a transparent, Full-screen DIV layer to block clicks outside edited object
  8. Use of ```angular.copy($scope.MonsterDB.monstall[index], $scope.editedItem);```
       - copy original to form-controlled 'editedItem' to edit.
       - reverse to save -> ```angular.copy($scope.editedItem, $scope.MonsterDB.monstall[index]);```
 
-#### SEARCH MODE
+###### SEARCH MONSTERS MODE
 
- 9. Move info from Controller to Controller via Service
+ 9. Share access of data between more than one Controller via Services.
  10. Angular Filter Array of Objects by 'searched for' object. Basic Name search and attribute searching.
 
-#### HINDSIGHT:
+###### HINDSIGHT:
 
- 1. Used a JSON for Map Data
+ 1. Should've used an Array of JSON for Map Data, ng-repeat prefers Arrays. With ng-style, could use JSON for positioning
  2. More ng-repeat to avoid repeated HTML elements.
  3. Split Controllers, or just do it in one controller and not have to use a service.
